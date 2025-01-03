@@ -1,0 +1,36 @@
+{
+  "name": "gogo-web-knowledge-store",
+  "version": "1.0.0",
+  "description": "妄想记录所有的前端开发知识 (已放弃 😂)",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogomusic/gogo-web-knowledge-store.git"
+  },
+  "keywords": [
+    "web",
+    "前端",
+    "vue",
+    "react",
+    "html",
+    "css",
+    "js",
+    "javascript",
+    "typescript"
+  ],
+  "author": "静夜聆雨",
+  "bugs": {
+    "url": "https://github.com/gogomusic/gogo-web-knowledge-store/issues"
+  },
+  "homepage": "https://github.com/gogomusic/gogo-web-knowledge-store#readme",
+  "devDependencies": {
+    "@mdit/plugin-tasklist": "^0.14.0",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  }
+}
