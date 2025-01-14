@@ -1,0 +1,12 @@
+/* 文件浏览器隐藏特定目录 */
+/* 等于号是完全匹配，填写你想匹配的文件or文件夹名称 */
+/* 星号+等于号是部分匹配，只要名字里包含就会隐藏 */
+.nav-folder:has([data-path="node_modules"]),
+.nav-folder:has([data-path="node_modules"]) {
+    display: none;
+}
+
+.nav-file:has([data-path="pnpm-lock.yaml"]),
+.nav-file:has([data-path="package.json"]) {
+    display: none;
+}

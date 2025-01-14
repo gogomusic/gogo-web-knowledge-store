@@ -1,0 +1,27 @@
+{
+  "showInlineTitle": false,
+  "livePreview": true,
+  "strictLineBreaks": true,
+  "spellcheckLanguages": null,
+  "vimMode": false,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "rightToLeft": false,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./assets",
+  "foldIndent": true,
+  "legacyEditor": false,
+  "newFileFolderPath": "Inbox",
+  "userIgnoreFilters": [
+    "assets/Excalidraw/"
+  ],
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true
+}

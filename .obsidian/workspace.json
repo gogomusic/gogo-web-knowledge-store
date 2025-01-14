@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "0e18ff5700d96df8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2413b5dfb6f11b69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9c6e10f3b66f4e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "47aa1181fdd03ce8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e6735196b57cda2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dcbbc8a8c8c0a61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d7938a54fca6e202",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "71abb9ebabc3ccec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "6ddbf06b4b68e5a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c4a226252f47474d",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5110321044922
+  },
+  "right": {
+    "id": "ec17f6e1f4d250ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "4839bb9ce3eae9d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08a7f40e592f508f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          },
+          {
+            "id": "1d5474ac37085c30",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "index 的反向链接列表"
+            }
+          },
+          {
+            "id": "814fb679aabbfd0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "index 的出链列表"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 320.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "callout-manager:Insert Callout": false,
+      "vscode-editor:新建代码文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "meld-encrypt:Encrypt/Decrypt": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "workspaces-plus:Manage workspaces": false,
+      "homepage:Open homepage": false,
+      "workspaces:管理工作区布局": false,
+      "templates:插入模板": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "canvas:新建白板": false,
+      "audio-recorder:开始/结束录音": false,
+      "graph:查看关系图谱": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "cmdr:文件列表: 在文件列表中显示当前文件": false,
+      "open-vscode:VSCode": false,
+      "switcher:打开快速切换": true,
+      "command-palette:打开命令面板": true,
+      "obsidian-importer:Open Importer": false,
+      "chronology:Open Chronology": true
+    }
+  },
+  "active": "b9c6e10f3b66f4e1",
+  "lastOpenFiles": [
+    "前端进阶/index.md",
+    "前端基础/index.md",
+    "README.md",
+    "index.md",
+    "后端开发/NestJS",
+    "后端开发",
+    "前端工程化/index.md",
+    "Vue/Vue.md",
+    "Vue/自动按需导入.md",
+    "Vue/深度作用选择器.md",
+    "个人前端学习路线及规划.md",
+    "Node.js/Node.js.md",
+    "obsidian操作技巧.md",
+    "后端开发/NestJS/Nest. js 学习资源整理.md",
+    "后端开发/数据库/MySQL.md",
+    "后端开发/数据库/assets/image 75.png",
+    "后端开发/数据库/assets/image 74.png",
+    "后端开发/数据库/assets/image 73.png",
+    "后端开发/数据库/assets/image 72.png",
+    "后端开发/数据库/assets/image 71.png",
+    "后端开发/数据库/assets/image 70.png",
+    "后端开发/数据库/assets/image 69.png",
+    "后端开发/数据库/assets/image 68.png",
+    "后端开发/数据库/assets/image 67.png",
+    "HTTP/浏览器缓存知识 - 强缓存与协商缓存.md",
+    "后端开发/数据库/assets/image 66.png",
+    "常用库&解决方案/自定义组件/关键词高亮(Vue).md",
+    "Inbox/环境变量和模式(.env).md",
+    "Inbox/前端语音合成播放简单示例（Web Speech API）.md",
+    "HTML/img.md",
+    "Inbox/Inbox.md",
+    "HTML/assets",
+    "HTML",
+    "Inbox/项目模板、规范.md",
+    "Inbox/消息轮播.md",
+    "常用库&解决方案/cli-color - 控制台颜色插件.md",
+    "常用库&解决方案/utils/功能函数.md",
+    "常用库&解决方案/自定义组件/Loading效果.md",
+    "常用库&解决方案/utils",
+    "Inbox/动态表单与审批流程.md",
+    "Inbox/文件分片上传下载/文件分片上传下载.md",
+    "常用库&解决方案/自定义组件",
+    "常用库&解决方案/UI&组件库/Element Plus",
+    "服务端渲染(SSR)/Next.js/Next.js语言切换.canvas",
+    "常用库&解决方案/assets",
+    "CSS/assets/小于12px的字体.html",
+    "CSS/assets",
+    "Inbox/未命名.canvas",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

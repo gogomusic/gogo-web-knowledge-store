@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "",
+  "nativeMenus": false,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "【目录】隐藏附件assets文件夹"
+  ],
+  "cssTheme": "Things",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "textFontFamily": "霞鹜文楷 GB 屏幕阅读版 R"
+}

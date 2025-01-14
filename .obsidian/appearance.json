@@ -1,0 +1,21 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "OPPOSans",
+  "nativeMenus": false,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "【目录】隐藏附件assets文件夹",
+    "【特效】fireworks",
+    "【图标】双链图标",
+    "【图标】预览网址加图标 - External Link Icons",
+    "【目录】隐藏附件文件夹（assets）",
+    "【目录】隐藏指定文件夹",
+    "【目录】隐藏指定文件夹和文件"
+  ],
+  "cssTheme": "Things",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "textFontFamily": "OPPOSans,霞鹜文楷 GB 屏幕阅读版 R",
+  "showViewHeader": true
+}
