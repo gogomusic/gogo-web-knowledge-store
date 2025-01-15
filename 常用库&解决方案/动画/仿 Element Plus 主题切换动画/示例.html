@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        /* 亮色模式下的背景色 */
+        --bg-color: #fff;
+        background-color: var(--bg-color);
+      }
+
+      :root.dark {
+        /* 暗色模式下的背景色 */
+        --bg-color: #000;
+      }
+
+      ::view-transition-new(root),
+      ::view-transition-old(root) {
+        /* 关闭默认动画，否则影响自定义动画的执行 */
+        animation: none;
+      }
+
+      .dark::view-transition-old(root) {
+        z-index: 100;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="btn">切换主题</button>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", e => {
+        // 点击按钮时切换主题
+        const transition = document.startViewTransition(() => {
+          document.documentElement.classList.toggle("dark");
+        });
+        transition.ready.then(() => {
+          const { clientX, clientY } = e;
+
+          const radius = Math.hypot(
+            Math.max(clientX, innerWidth - clientX),
+            Math.max(clientY, innerHeight - clientY)
+          );
+
+          const isDark = document.documentElement.classList.contains("dark");
+          const clipPath = [
+            `circle(0% at ${clientX}px ${clientY}px)`,
+            `circle(${radius}px at ${clientX}px ${clientY}px)`,
+          ];
+
+          document.documentElement.animate(
+            {
+              clipPath: isDark ? clipPath.reverse() : clipPath,
+            },
+            {
+              duration: 300,
+              pseudoElement: isDark
+                ? "::view-transition-old(root)"
+                : "::view-transition-new(root)",
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

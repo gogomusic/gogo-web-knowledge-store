@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2413b5dfb6f11b69",
+        "id": "47ce4c89438776e3",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c6e10f3b66f4e1",
+            "id": "30ba4a23a41cc4d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Node.js/Node.js.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Node.js"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "```m",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,10 +117,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Node.js/Node.js.md"
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "Node.js 的大纲"
             }
           },
           {
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Node.js/Node.js.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "Node.js 的反向链接列表"
             }
           },
           {
@@ -148,19 +148,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Node.js/Node.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "Node.js 的出链列表"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 320.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,54 +188,53 @@
       "chronology:Open Chronology": true
     }
   },
-  "active": "b9c6e10f3b66f4e1",
+  "active": "30ba4a23a41cc4d6",
   "lastOpenFiles": [
-    "public/favicon.ico",
-    "public",
-    "favicon.ico",
-    "gogo.ico",
-    "前端进阶/index.md",
-    "前端基础/index.md",
-    "README.md",
-    "index.md",
-    "后端开发/NestJS",
-    "后端开发",
-    "前端工程化/index.md",
-    "Vue/Vue.md",
-    "Vue/自动按需导入.md",
-    "Vue/深度作用选择器.md",
-    "个人前端学习路线及规划.md",
+    "CSS/CSS常用样式.md",
+    "CSS/assets/小于12px的字体.html",
+    "数据库/MySQL/index.md",
+    "工作经验/快速找到哪个元素产生的滚动.md",
+    "工作经验/工作经验.md",
+    "工作经验/dummyimage.md",
+    "NestJS/Nest. js 学习资源整理.md",
+    "TypeScript/TypeScript 与组合式 API  Vue.js.md",
+    "React/React KeepAlive/Umi 3 中实现方案/Umi 3 中实现方案.md",
+    "about.md",
+    "前端工程化/版本控制/git/assets/(1条消息) git rebase详解（图解+最简单示例，一次就懂）_风中一匹狼v的博客-CSDN博客_git rebase.md",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs/PanelTabHook.ts",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs/PanelTab.tsx",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs/index.tsx",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/plugin.ts",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/index.tsx",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs",
+    "React/pages/assets/子传父的数据流向.png",
+    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive",
+    "React/pages/assets/跨组件传递.png",
+    "React/pages/assets/组件的执行顺序.png",
+    "React/pages/assets/类组件状态的this指向.png",
+    "React/pages/assets/更新阶段.png",
+    "React/pages/assets/image-20221007124703327.png",
+    "React/pages/assets/image-20211016171150589-1665114703337-5.png",
+    "React/pages/assets/人一生缩影.png",
+    "React/pages/assets/react_style.png",
+    "React/pages/assets/props层层传递.png",
+    "React/React KeepAlive/Umi 3 中实现方案",
+    "React/pages/assets",
+    "React/pages/5. React 组件通讯.md",
+    "React/pages/6. React 组件进阶.md",
+    "React/pages/4. React 组件基础.md",
+    "React/pages/3. JSX.md",
+    "React/pages/2. 使用脚手架创建项目.md",
+    "React/pages/1. React基础.md",
+    "React/React学习笔记.md",
+    "React/React.md",
     "Node.js/Node.js.md",
-    "obsidian操作技巧.md",
-    "后端开发/NestJS/Nest. js 学习资源整理.md",
-    "后端开发/数据库/MySQL.md",
-    "后端开发/数据库/assets/image 75.png",
-    "后端开发/数据库/assets/image 74.png",
-    "后端开发/数据库/assets/image 73.png",
-    "后端开发/数据库/assets/image 72.png",
-    "后端开发/数据库/assets/image 71.png",
-    "后端开发/数据库/assets/image 70.png",
-    "后端开发/数据库/assets/image 69.png",
-    "后端开发/数据库/assets/image 68.png",
-    "后端开发/数据库/assets/image 67.png",
-    "HTTP/浏览器缓存知识 - 强缓存与协商缓存.md",
-    "后端开发/数据库/assets/image 66.png",
-    "常用库&解决方案/自定义组件/关键词高亮(Vue).md",
-    "Inbox/环境变量和模式(.env).md",
-    "Inbox/前端语音合成播放简单示例（Web Speech API）.md",
-    "HTML/img.md",
-    "Inbox/Inbox.md",
-    "HTML/assets",
-    "HTML",
-    "Inbox/项目模板、规范.md",
-    "Inbox/消息轮播.md",
-    "常用库&解决方案/cli-color - 控制台颜色插件.md",
-    "常用库&解决方案/utils/功能函数.md",
-    "常用库&解决方案/自定义组件/Loading效果.md",
-    "常用库&解决方案/utils",
-    "Inbox/动态表单与审批流程.md",
-    "常用库&解决方案/自定义组件",
-    "常用库&解决方案/UI&组件库/Element Plus",
+    "JavaScript/JS设计模式/JavaScript设计模式.md",
+    "JavaScript/JS注释/JS注释.md",
+    "JavaScript/JS注释/JSDoc.md",
+    "JavaScript/canvas/canvas.md",
+    "JavaScript/对象、类与面向对象编程.md",
+    "JavaScript/JS语句和声明.md",
     "服务端渲染(SSR)/Next.js/Next.js语言切换.canvas",
     "Inbox/未命名.canvas",
     "未命名.canvas",

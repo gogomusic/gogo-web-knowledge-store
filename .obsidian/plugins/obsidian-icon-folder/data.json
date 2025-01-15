@@ -70,11 +70,8 @@
   "JavaScript": "RiJavascriptLine",
   "Node.js": "FabNode",
   "TypeScript": "LiType",
-  "后端开发": "RiJavaLine",
   "多平台开发": "RiHtml5Fill",
   "常用库&解决方案": "RiNpmjsFill",
   "服务端渲染(SSR)": "LiServer",
-  "工作经验": "LiWorkflow",
-  "前端工程化": "LiPackage",
-  "HTTP": "LiChrome"
+  "工作经验": "LiWorkflow"
 }

@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"type":"text","text":"中间件：判断request.cookies.get('language_preference')?.value 是否存在","id":"f0de767f16bb3dcf","x":-130,"y":-373,"width":380,"height":76},
+		{"type":"text","text":"访问 / ","id":"192e806cbde21e49","x":-10,"y":-460,"width":140,"height":50,"color":"3"},
+		{"type":"text","text":"中间件：根据请求头中 accept-language 切换语言","id":"e6ddc01d05829927","x":-65,"y":-222,"width":250,"height":80},
+		{"type":"text","text":"语言组件，获取语言偏好：Cookie. get (\"language_preference\")","id":"c7861d63918f5e9c","x":-163,"y":9,"width":446,"height":50},
+		{"type":"text","text":"语言组件：不弹出","id":"8e6356e51b6f82cc","x":-220,"y":140,"width":250,"height":60},
+		{"type":"text","text":"语言组件：判断当前页面语言与浏览器首选语言（navigator.language）是否一致。","id":"417108ec9025cd24","x":133,"y":130,"width":375,"height":80},
+		{"type":"text","text":"访问 /en-US","id":"90260f1dc97a8310","x":390,"y":-460,"width":230,"height":50,"color":"3"},
+		{"type":"text","text":"语言组件弹出，弹出框的语言与浏览器首选语言一致。并由用户选择语言","id":"9b82003ef577692c","x":620,"y":120,"width":250,"height":100},
+		{"type":"text","text":"跳转到对应语言页面","id":"b2ad0145966dd14e","x":-65,"y":-80,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"8201693b55cd0e3b","fromNode":"e6ddc01d05829927","fromSide":"bottom","toNode":"b2ad0145966dd14e","toSide":"top"},
+		{"id":"6e18075de3f121ac","fromNode":"b2ad0145966dd14e","fromSide":"bottom","toNode":"c7861d63918f5e9c","toSide":"top"},
+		{"id":"c4bcd83d9d36b18f","fromNode":"c7861d63918f5e9c","fromSide":"bottom","toNode":"8e6356e51b6f82cc","toSide":"top","label":"存在"},
+		{"id":"2b1987f9a1177ca7","fromNode":"192e806cbde21e49","fromSide":"bottom","toNode":"f0de767f16bb3dcf","toSide":"top"},
+		{"id":"28f28f5448ead6c0","fromNode":"f0de767f16bb3dcf","fromSide":"bottom","toNode":"e6ddc01d05829927","toSide":"top","label":"不存在"},
+		{"id":"403c83eae11c77c7","fromNode":"f0de767f16bb3dcf","fromSide":"left","toNode":"b2ad0145966dd14e","toSide":"left","label":"存在"},
+		{"id":"1aa3ea1c1daa8e98","fromNode":"c7861d63918f5e9c","fromSide":"bottom","toNode":"417108ec9025cd24","toSide":"top","label":"不存在"},
+		{"id":"c195e188f2d8b2ae","fromNode":"417108ec9025cd24","fromSide":"left","toNode":"8e6356e51b6f82cc","toSide":"right","label":"一致"},
+		{"id":"ae060685fe652ae7","fromNode":"417108ec9025cd24","fromSide":"right","toNode":"9b82003ef577692c","toSide":"left","label":"不一致"},
+		{"id":"0ee9386288fa8203","fromNode":"9b82003ef577692c","fromSide":"top","toNode":"b2ad0145966dd14e","toSide":"right","label":"存储Cookie"},
+		{"id":"c12b87c5960547e7","fromNode":"90260f1dc97a8310","fromSide":"bottom","toNode":"b2ad0145966dd14e","toSide":"right"}
+	]
+}

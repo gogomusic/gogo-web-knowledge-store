@@ -10,30 +10,76 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: `${base}favicon.ico` }]],
   base,
   lang: "zh-CN",
+  // cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "首页", link: "/" }],
-
-    // sidebar: [
-    //   {
-    //     text: "Examples",
-    //     items: [
-    //       { text: "Markdown Examples", link: "/markdown-examples" },
-    //       { text: "Runtime API Examples", link: "/api-examples" },
-    //     ],
-    //   },
-    // ],
-
+    nav: [
+      { text: "前端导航", link: "/nav" },
+      {
+        text: "前端笔记",
+        items: [
+          { text: "HTML", link: "/HTML/img" },
+          { text: "CSS", link: "/CSS/CSS常用样式" },
+          { text: "浏览器与网络", link: "/浏览器与网络/强缓存与协商缓存" },
+        ],
+      },
+      { text: "关于", link: "/about" },
+    ],
+    sidebar: {
+      "/HTML/": [
+        {
+          text: "HTML",
+          items: [{ text: `img`, link: "/HTML/img" }],
+        },
+      ],
+      "/CSS/": [
+        {
+          text: "CSS",
+          items: [
+            { text: `CSS常用样式`, link: "/CSS/CSS常用样式" },
+            { text: `grid 网格布局`, link: "/CSS/grid 网格布局" },
+            { text: `Tailwind CSS`, link: "/CSS/Tailwind CSS" },
+          ],
+        },
+      ],
+      "/浏览器与网络/": [
+        {
+          text: "HTTP",
+          items: [
+            {
+              text: `强缓存与协商缓存`,
+              link: "/浏览器与网络/强缓存与协商缓存",
+            },
+          ],
+        },
+      ],
+    },
     socialLinks: [
       {
         icon: "github",
         link: "https://github.com/gogomusic/gogo-web-knowledge-store",
       },
     ],
+    search: {
+      provider: "local",
+    },
+    outline: {
+      level: "deep",
+    },
   },
   markdown: {
     config: md => {
       md.use(tasklist);
+    },
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern-compiler",
+        },
+      },
     },
   },
 });

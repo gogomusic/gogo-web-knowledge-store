@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+        word-break: keep-all;
+      }
+      .box1::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      .box1::-webkit-scrollbar-thumb {
+        background-color: skyblue;
+        border-radius: 10px;
+      }
+      .box1::-webkit-scrollbar-thumb:hover {
+        background-color: blue;
+      }
+      .box1::-webkit-scrollbar-thumb:active {
+        background-color: yellow;
+      }
+      .box1::-webkit-scrollbar-track {
+        background-color: pink;
+        border-radius: 10px;
+      }
+      .box1::-webkit-scrollbar-track-piece {
+        width: 5px;
+        background-color: saddlebrown;
+      }
+      .box1::-webkit-scrollbar-button {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+      }
+      .box1::-webkit-scrollbar-corner {
+        background-color: palegoldenrod;
+      }
+
+      .box2::-webkit-scrollbar {
+        width: 2px;
+        height: 2px;
+      }
+      .box2:hover::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      .box2::-webkit-scrollbar-track {
+        background-color: pink;
+        border-radius: 5px;
+      }
+      .box2::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+        box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+        border-radius: 10px;
+      }
+      .box2::-webkit-scrollbar-thumb:active {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="box box1">
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+      </div>
+      <br />
+      <div class="box box2">
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+      </div>
+    </div>
+  </body>
+</html>

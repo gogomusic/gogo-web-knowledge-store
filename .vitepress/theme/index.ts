@@ -4,6 +4,7 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
 import "./custom.css";
+import NavLinks from "./components/NavLinks.vue";
 
 export default {
   extends: DefaultTheme,
@@ -13,6 +14,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component("NavLinks", NavLinks);
   },
 } satisfies Theme;
