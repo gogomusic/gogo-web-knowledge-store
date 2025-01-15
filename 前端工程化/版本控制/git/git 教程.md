@@ -525,25 +525,25 @@ So，**`Github ≠ Git`**
 
 ⑥ 登录到第三步填写的邮箱中，点击激活链接，完成注册
 
-<img src="git.assets/github%E6%B3%A8%E5%86%8C.png" style="zoom:60%;" />
+![github注册](git.assets/github注册.png)
 
 ### 激活 `Github` 账号
 
-<img src="git.assets/%E6%BF%80%E6%B4%BB%E9%82%AE%E4%BB%B6.png" style="zoom:60%;" />
+![激活邮件](git.assets/激活邮件.png)
 
 ### 完成注册
 
-<img src="git.assets/%E6%B3%A8%E5%86%8C%E6%88%90%E5%8A%9F.png" style="zoom:60%;" />
+![注册成功](git.assets/注册成功.png)
 
 ### 远程仓库的使用
 
 #### 新建空白远程仓库
 
-<img src="git.assets/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" style="zoom:60%;" />
+![创建仓库](git.assets/创建仓库.png)
 
 **新建空白远程仓库成功**
 
-<img src="git.assets/%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F.png" style="zoom:60%;" />
+![创建成功](git.assets/创建成功.png)
 
 ### 远程仓库的两种访问方式
 
@@ -557,7 +557,7 @@ So，**`Github ≠ Git`**
 
 #### 基于 `HTTPS` 将本地仓库上传到 `Github`
 
-<img src="git.assets/https%E6%8F%90%E4%BA%A4.png"  />
+![https提交](git.assets/https提交.png)
 
 #### 基于 SSH key
 

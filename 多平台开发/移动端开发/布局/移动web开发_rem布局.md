@@ -81,7 +81,6 @@ rem 的优势：父元素文字大小可能不一致，但是整个页面只有�
 
    也可以设置范围：
 
-
    ```css
    @media screen and (min-width:450px) and (max-width:500px) {
        body {
@@ -335,7 +334,7 @@ width: (@width + 5) * 2;
 
 ### 苏宁首页
 
-苏宁首页地址：[苏宁首页](m.suning.com)
+苏宁首页地址：[苏宁首页](https://m.suning.com)
 
 1、技术选型
 

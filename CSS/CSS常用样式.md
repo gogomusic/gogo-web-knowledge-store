@@ -51,7 +51,58 @@ html {
 
 #### 小于 12 px 的字体
 
- [点击预览](assets/小于12px的字体.html)
+<style module>
+      .font-sm {
+        display: block;
+        font-size: 12px;
+        transform-origin: 0 0;
+        white-space: nowrap;
+      }
+
+      .font-1 {
+        transform: scale(0.083, 0.083);
+      }
+      .font-2 {
+        transform: scale(0.167, 0.167);
+      }
+      .font-3 {
+        transform: scale(0.25, 0.25);
+      }
+      .font-4 {
+        transform: scale(0.333, 0.333);
+      }
+      .font-5 {
+        transform: scale(0.417, 0.417);
+      }
+      .font-6 {
+        transform: scale(0.5, 0.5);
+      }
+      .font-7 {
+        transform: scale(0.583, 0.583);
+      }
+      .font-8 {
+        transform: scale(0.667, 0.667);
+      }
+      .font-9 {
+        transform: scale(0.75, 0.75);
+      }
+      .font-10 {
+        transform: scale(0.833, 0.833);
+      }
+      .font-11 {
+        transform: scale(0.17, 0.17);
+      }
+    </style>
+<div class="font-sm font-1">1px</div>
+    <div class="font-sm font-2">2px</div>
+    <div class="font-sm font-3">3px</div>
+    <div class="font-sm font-4">4px</div>
+    <div class="font-sm font-5">5px</div>
+    <div class="font-sm font-6">6px</div>
+    <div class="font-sm font-7">7px</div>
+    <div class="font-sm font-8">8px</div>
+    <div class="font-sm font-9">9px</div>
+    <div class="font-sm font-10">10px</div>
 
 ```html
 <!DOCTYPE html>
@@ -121,7 +172,177 @@ html {
 
 #### 滚动条样式
 
-[预览](assets/滚动条样式.html)
+<style>
+      .box {
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+        word-break: keep-all;
+      }
+      .box1::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      .box1::-webkit-scrollbar-thumb {
+        background-color: skyblue;
+        border-radius: 10px;
+      }
+      .box1::-webkit-scrollbar-thumb:hover {
+        background-color: blue;
+      }
+      .box1::-webkit-scrollbar-thumb:active {
+        background-color: yellow;
+      }
+      .box1::-webkit-scrollbar-track {
+        background-color: pink;
+        border-radius: 10px;
+      }
+      .box1::-webkit-scrollbar-track-piece {
+        width: 5px;
+        background-color: saddlebrown;
+      }
+      .box1::-webkit-scrollbar-button {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+      }
+      .box1::-webkit-scrollbar-corner {
+        background-color: palegoldenrod;
+      }
+
+      .box2::-webkit-scrollbar {
+        width: 2px;
+        height: 2px;
+      }
+      .box2:hover::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      .box2::-webkit-scrollbar-track {
+        background-color: pink;
+        border-radius: 5px;
+      }
+      .box2::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+        box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+        border-radius: 10px;
+      }
+      .box2::-webkit-scrollbar-thumb:active {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+      }
+    </style>
+<div class="content">
+      <div class="box box1">
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+      </div>
+      <br />
+      <div class="box box2">
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+      </div>
+    </div>
+
+::: details 点我查看代码
+
+```html
+<style>
+      .box {
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+        word-break: keep-all;
+      }
+      .box1::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      .box1::-webkit-scrollbar-thumb {
+        background-color: skyblue;
+        border-radius: 10px;
+      }
+      .box1::-webkit-scrollbar-thumb:hover {
+        background-color: blue;
+      }
+      .box1::-webkit-scrollbar-thumb:active {
+        background-color: yellow;
+      }
+      .box1::-webkit-scrollbar-track {
+        background-color: pink;
+        border-radius: 10px;
+      }
+      .box1::-webkit-scrollbar-track-piece {
+        width: 5px;
+        background-color: saddlebrown;
+      }
+      .box1::-webkit-scrollbar-button {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+      }
+      .box1::-webkit-scrollbar-corner {
+        background-color: palegoldenrod;
+      }
+
+      .box2::-webkit-scrollbar {
+        width: 2px;
+        height: 2px;
+      }
+      .box2:hover::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      .box2::-webkit-scrollbar-track {
+        background-color: pink;
+        border-radius: 5px;
+      }
+      .box2::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+        box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+        border-radius: 10px;
+      }
+      .box2::-webkit-scrollbar-thumb:active {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+      }
+    </style>
+<div class="content">
+      <div class="box box1">
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+      </div>
+      <br />
+      <div class="box box2">
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+        你好你好你好你好你好你好你好你<br />好你好你好你好你好你好你好你好<br />
+      </div>
+    </div>
+```
+
+:::
 
 ![](assets/Pasted%20image%2020240919104524.png)
 

@@ -7,7 +7,7 @@
   "readableLineLength": false,
   "showFrontmatter": true,
   "foldHeading": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "showIndentGuide": false,
   "rightToLeft": false,
   "promptDelete": false,
