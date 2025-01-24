@@ -12,6 +12,9 @@ import Nav from './index.vue'
 
 <Nav />
 
+## 学习博客
+
+- [大前端 - 前端高级进阶](https://front-end.toimc.com:12004/notes-page/)
 <br />
 
 > [!info] 参考资料

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "47ce4c89438776e3",
+        "id": "2413b5dfb6f11b69",
         "type": "tabs",
         "children": [
           {
-            "id": "30ba4a23a41cc4d6",
+            "id": "b9c6e10f3b66f4e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "多平台开发/移动端开发/布局/移动web开发_rem布局.md",
+                "file": "工作经验/dummyimage.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "移动web开发_rem布局"
+              "title": "dummyimage"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "后端开发",
+                "query": "PM2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,10 +117,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "多平台开发/移动端开发/布局/移动web开发_rem布局.md"
+                "file": "工作经验/dummyimage.md"
               },
               "icon": "lucide-list",
-              "title": "移动web开发_rem布局 的大纲"
+              "title": "dummyimage 的大纲"
             }
           },
           {
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "多平台开发/移动端开发/布局/移动web开发_rem布局.md",
+                "file": "工作经验/dummyimage.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "移动web开发_rem布局 的反向链接列表"
+              "title": "dummyimage 的反向链接列表"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "多平台开发/移动端开发/布局/移动web开发_rem布局.md",
+                "file": "工作经验/dummyimage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "移动web开发_rem布局 的出链列表"
+              "title": "dummyimage 的出链列表"
             }
           }
         ]
@@ -166,11 +166,10 @@
   "left-ribbon": {
     "hiddenItems": {
       "callout-manager:Insert Callout": false,
-      "vscode-editor:新建代码文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "vscode-editor:新建代码文件": false,
       "meld-encrypt:Encrypt/Decrypt": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "workspaces-plus:Manage workspaces": false,
       "homepage:Open homepage": false,
       "workspaces:管理工作区布局": false,
       "templates:插入模板": false,
@@ -185,57 +184,58 @@
       "switcher:打开快速切换": true,
       "command-palette:打开命令面板": true,
       "obsidian-importer:Open Importer": false,
-      "chronology:Open Chronology": true
+      "chronology:Open Chronology": true,
+      "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "30ba4a23a41cc4d6",
+  "active": "b9c6e10f3b66f4e1",
   "lastOpenFiles": [
-    "Inbox/m.suning.com.md",
-    "多平台开发/移动端开发/布局/移动web开发_rem布局.md",
-    "Vue/vue-router/vue-router v4学习笔记.md",
+    "工作经验/网站运行状态监控.md",
+    "服务端渲染(SSR)/Next.js/Node 项目部署.md",
+    "服务端渲染(SSR)/Next.js/Next.js.md",
+    "NestJS/index.md",
+    "工作经验/如何忽略项目中的特定警告.md",
     "about.md",
+    "index.md",
+    "README.md",
+    "CSS/Tailwind CSS.md",
+    "数据库/MySQL/数据库环境搭建.md",
+    "数据库/MySQL/assets/image 77.png",
+    "数据库/MySQL/assets/image 76.png",
+    "1.json",
+    "数据库/MySQL/index.md",
+    "Node.js/index.md",
+    "Node.js/assets/image 3.png",
+    "Node.js/assets/image 2.png",
+    "Node.js/assets/image 1.png",
+    "Node.js/assets/image.png",
+    "Node.js/assets",
+    "public/icons/Node.js.svg",
+    "public/icons/Node.js",
+    "public/icons/Node.js.crdownload",
+    "assets/Template/参考资料.md",
+    "Inbox/Inbox.md",
+    "nav/index.md",
+    "assets/Template/README.md",
+    "NestJS/assets/image 1.png",
+    "浏览器与网络/强缓存与协商缓存.md",
+    "NestJS/assets/image.png",
+    "public/icons/NestJS.svg",
+    "public/icons/NestJS.svg.crdownload",
     "NestJS/Nest. js 学习资源整理.md",
+    "Inbox/未命名.md",
+    "React/pages/3. JSX.md",
+    "React/React学习笔记.md",
+    "React/React.md",
+    "多平台开发/移动端开发/布局/移动web开发_rem布局.md",
+    "Inbox/m.suning.com.md",
+    "Vue/vue-router/vue-router v4学习笔记.md",
     "Vue/vue-router/重定向.md",
-    "Inbox/导航守卫.md",
-    "CSS/CSS常用样式.md",
     "CSS/assets/滚动条样式.html",
     "CSS/assets/小于12px的字体.html",
-    "Inbox/项目模板、规范.md",
-    "前端工程化/版本控制/git/git 教程.md",
-    "常用库&解决方案/自定义组件/Loading效果.md",
-    "前端工程化/版本控制/git/git.assets/查看分支.png",
-    "前端工程化/版本控制/git/git.assets/撤销.png",
-    "前端工程化/版本控制/git/git.assets/创建仓库.png",
-    "前端工程化/版本控制/git/git.assets/创建分支.png",
-    "React/React学习笔记.md",
-    "React/pages/3. JSX.md",
-    "React/pages/assets/react_style.png",
-    "Inbox/动态表单与审批流程.md",
-    "Node.js/Node.js.md",
-    "数据库/MySQL/index.md",
-    "工作经验/快速找到哪个元素产生的滚动.md",
-    "工作经验/工作经验.md",
-    "工作经验/dummyimage.md",
-    "TypeScript/TypeScript 与组合式 API  Vue.js.md",
-    "React/React KeepAlive/Umi 3 中实现方案/Umi 3 中实现方案.md",
-    "前端工程化/版本控制/git/assets/(1条消息) git rebase详解（图解+最简单示例，一次就懂）_风中一匹狼v的博客-CSDN博客_git rebase.md",
     "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs/PanelTabHook.ts",
     "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs/PanelTab.tsx",
     "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs/index.tsx",
-    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/plugin.ts",
-    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/index.tsx",
-    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive/PanelTabs",
-    "React/pages/assets/子传父的数据流向.png",
-    "React/React KeepAlive/Umi 3 中实现方案/PanelTabsKeepAlive",
-    "React/pages/assets/跨组件传递.png",
-    "React/pages/assets/组件的执行顺序.png",
-    "React/pages/assets/类组件状态的this指向.png",
-    "React/pages/assets/更新阶段.png",
-    "React/React KeepAlive/Umi 3 中实现方案",
-    "React/pages/5. React 组件通讯.md",
-    "React/pages/6. React 组件进阶.md",
-    "React/pages/4. React 组件基础.md",
-    "React/pages/2. 使用脚手架创建项目.md",
     "服务端渲染(SSR)/Next.js/Next.js语言切换.canvas",
     "Inbox/未命名.canvas",
     "未命名.canvas",

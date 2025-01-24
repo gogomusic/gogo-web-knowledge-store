@@ -10,7 +10,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: `${base}favicon.ico` }]],
   base,
   lang: "zh-CN",
-  // cleanUrls: true,
+  cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,6 +22,14 @@ export default defineConfig({
           { text: "HTML", link: "/HTML/img" },
           { text: "CSS", link: "/CSS/CSS常用样式" },
           { text: "浏览器与网络", link: "/浏览器与网络/强缓存与协商缓存" },
+          { text: "Node.js", link: "/Node.js/" },
+        ],
+      },
+      {
+        text: "后端开发",
+        items: [
+          { text: "NestJS", link: "/NestJS" },
+          { text: "MySQL", link: "/数据库/MySQL" },
         ],
       },
       { text: "关于", link: "/about" },
@@ -50,6 +58,28 @@ export default defineConfig({
             {
               text: `强缓存与协商缓存`,
               link: "/浏览器与网络/强缓存与协商缓存",
+            },
+          ],
+        },
+      ],
+      "/Node.js/": [
+        {
+          text: "Node.js",
+          items: [
+            {
+              text: `Node.js`,
+              link: "/Node.js/",
+            },
+          ],
+        },
+      ],
+      "/NestJS/": [
+        {
+          text: "NestJS",
+          items: [
+            {
+              text: `NestJS`,
+              link: "/NestJS",
             },
           ],
         },

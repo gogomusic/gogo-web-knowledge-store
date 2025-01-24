@@ -7,7 +7,7 @@
   "readableLineLength": false,
   "showFrontmatter": true,
   "foldHeading": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "showIndentGuide": false,
   "rightToLeft": false,
   "promptDelete": false,
@@ -24,5 +24,6 @@
   ],
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true,
-  "trashOption": "system"
+  "trashOption": "system",
+  "propertiesInDocument": "source"
 }

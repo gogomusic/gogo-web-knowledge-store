@@ -28,4 +28,14 @@ features:
     title: 浏览器与网络
     details: 浏览器与网络协议相关知识
     link: /浏览器与网络/强缓存与协商缓存
+  - icon:
+      src: /icons/Node.js.svg
+    title: Node.js
+    details: 基于 Chrome V8 引擎的 JavaScript 运行环境
+    link: /Node.js/
+  - icon:
+      src: /icons/NestJS.svg
+    title: NestJS
+    details: 用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架
+    link: /NestJS
 ---
