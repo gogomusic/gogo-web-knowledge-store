@@ -169,3 +169,13 @@
 	- [ ] 低代码/无代码
 	- [ ] AI 大模型
 	- [ ] 微前端
+
+## 前端学习杂项
+
+- [ ] [web前端面试 - 面试官系列](https://vue3js.cn/interview/)
+- [ ] 前端笔记整理
+	- [ ] https://notes.fe-mm.com/
+	- [ ] https://note.noxussj.top/
+	- [ ] https://devtool.tech/fe-logo
+	- [ ] https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs
+- [ ] LeetCode
