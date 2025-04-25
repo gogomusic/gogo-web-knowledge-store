@@ -4,7 +4,7 @@
 
 1. 使用 pm2 进行生产环境部署：
 	- 安装 pm2：npm install pm2 -g
-	- 启动你的应用：pm2 start app.js --name "my-app"
+	- 启动你的应用：pm2 start app.js --name "my-app"，使用 `--time` 指令可在日志中显示时间
 	- 设置开机自启：pm2 startup 并确认
 	- 保存当前运行的应用：pm2 save
 	- 重新加载 pm2 配置：pm2 reload all

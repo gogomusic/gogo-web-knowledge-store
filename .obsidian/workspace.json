@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "2413b5dfb6f11b69",
+        "id": "8ad10bbd19a6c23f",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c6e10f3b66f4e1",
+            "id": "916f7db22b58564f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Hook/useProTableSizeObserver.md",
+                "file": "JavaScript/js计算.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "useProTableSizeObserver"
+              "title": "js计算"
+            }
+          },
+          {
+            "id": "4c74f83238acef55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/调试工具/React Scan.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "React Scan"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Hook/useProTableSizeObserver.md",
+                "file": "React/调试工具/React Scan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "useProTableSizeObserver 的大纲"
+              "title": "React Scan 的大纲"
             }
           },
           {
@@ -135,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Hook/useProTableSizeObserver.md",
+                "file": "React/调试工具/React Scan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "useProTableSizeObserver 的反向链接列表"
+              "title": "React Scan 的反向链接列表"
             }
           },
           {
@@ -154,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Hook/useProTableSizeObserver.md",
+                "file": "React/调试工具/React Scan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "useProTableSizeObserver 的出链列表"
+              "title": "React Scan 的出链列表"
             }
           }
         ]
@@ -193,12 +209,21 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "b9c6e10f3b66f4e1",
+  "active": "4c74f83238acef55",
   "lastOpenFiles": [
-    "Inbox/未命名.md",
+    "Inbox/项目模板、规范.md",
+    "React/调试工具/React Scan.md",
+    "JavaScript/js计算.md",
+    "React/调试工具",
+    "JavaScript/SSE.md",
+    "README.md",
+    "NestJS/index.md",
+    "NestJS/Nest. js 学习资源整理.md",
+    "服务端渲染(SSR)/Next.js/Node 项目部署.md",
+    "Inbox/Inbox.md",
+    "Node.js/index.md",
     "React/Hook/useProTableSizeObserver.md",
     "React/React.md",
-    "README.md",
     "React/Hook/useProTableSizeObserver.ts",
     "工作经验/自己写的一个获取、缓存字典的hook.md",
     "about.md",
@@ -223,14 +248,6 @@
     "常用库&解决方案/utils/功能函数.md",
     "常用库&解决方案/视差滚动",
     "nav/index.md",
-    "服务端渲染(SSR)/Next.js/Node 项目部署.md",
-    "工作经验/dummyimage.md",
-    "工作经验/网站运行状态监控.md",
-    "服务端渲染(SSR)/Next.js/Next.js.md",
-    "NestJS/index.md",
-    "工作经验/如何忽略项目中的特定警告.md",
-    "CSS/Tailwind CSS.md",
-    "数据库/MySQL/数据库环境搭建.md",
     "数据库/MySQL/assets/image 77.png",
     "数据库/MySQL/assets/image 76.png",
     "1.json",
@@ -240,7 +257,6 @@
     "Node.js/assets",
     "public/icons/Node.js",
     "public/icons/Node.js.crdownload",
-    "public/icons/NestJS.svg.crdownload",
     "服务端渲染(SSR)/Next.js/Next.js语言切换.canvas",
     "Inbox/未命名.canvas",
     "未命名.canvas",
