@@ -24,24 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "React/调试工具/React Scan.md",
-      "timestamp": 1745562574488
-    },
-    {
-      "filepath": "Inbox/项目模板、规范.md",
-      "timestamp": 1745562538152
-    },
-    {
-      "filepath": "JavaScript/js计算.md",
-      "timestamp": 1745550465336
-    },
-    {
-      "filepath": "JavaScript/SSE.md",
-      "timestamp": 1745547546892
-    },
-    {
       "filepath": "README.md",
-      "timestamp": 1745547512102
+      "timestamp": 1746771000312
+    },
+    {
+      "filepath": "NestJS/NestJS.md",
+      "timestamp": 1746770993495
     }
   ],
   "bookmarkedFileStore": [],
