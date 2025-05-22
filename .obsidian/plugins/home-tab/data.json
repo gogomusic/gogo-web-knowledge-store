@@ -25,11 +25,19 @@
   "recentFilesStore": [
     {
       "filepath": "README.md",
-      "timestamp": 1746771000312
+      "timestamp": 1747913209508
     },
     {
-      "filepath": "NestJS/NestJS.md",
-      "timestamp": 1746770993495
+      "filepath": "工作经验/项目管理.md",
+      "timestamp": 1747913209373
+    },
+    {
+      "filepath": "工作经验/软件工程化管理.md",
+      "timestamp": 1747913209326
+    },
+    {
+      "filepath": "服务端渲染(SSR)/Next.js/Node 项目部署.md",
+      "timestamp": 1747913206719
     }
   ],
   "bookmarkedFileStore": [],
