@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2413b5dfb6f11b69",
+        "id": "cf771d1b0c612cc1",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c6e10f3b66f4e1",
+            "id": "5281edc20ef031b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "工作经验/快速找到哪个元素产生的滚动.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "快速找到哪个元素产生的滚动"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "视差滚动",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,8 +100,7 @@
               "title": "Chronology"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "工作经验/快速找到哪个元素产生的滚动.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "快速找到哪个元素产生的滚动 的大纲"
             }
           },
           {
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "工作经验/快速找到哪个元素产生的滚动.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "快速找到哪个元素产生的滚动 的反向链接列表"
             }
           },
           {
@@ -155,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "工作经验/快速找到哪个元素产生的滚动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "快速找到哪个元素产生的滚动 的出链列表"
             }
           }
         ]
@@ -176,6 +175,7 @@
       "vscode-editor:新建代码文件": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "meld-encrypt:Encrypt/Decrypt In-place": false,
+      "workspaces-plus:Manage workspaces": false,
       "homepage:Open homepage": false,
       "workspaces:管理工作区布局": false,
       "templates:插入模板": false,
@@ -190,25 +190,28 @@
       "switcher:打开快速切换": true,
       "command-palette:打开命令面板": true,
       "obsidian-importer:Open Importer": false,
-      "chronology:Open Chronology": true,
-      "workspaces-plus:Manage workspaces": false
+      "chronology:Open Chronology": true
     }
   },
-  "active": "b9c6e10f3b66f4e1",
+  "active": "5281edc20ef031b8",
   "lastOpenFiles": [
-    "工作经验/项目管理.md",
+    "常用库&解决方案/视差滚动/视差滚动.md",
+    "常用库&解决方案/视差滚动/assets/background-attachment.html",
+    "工作经验/快速找到哪个元素产生的滚动.md",
+    "工作经验/软件开发流程.md",
     "工作经验/软件工程化管理.md",
+    "工作经验/网站运行状态监控.md",
+    "工作经验/工作经验.md",
     "README.md",
+    "index.md",
+    "工作经验/项目管理.md",
     "服务端渲染(SSR)/Next.js/Node 项目部署.md",
     "工作经验/assets/项目管理.png",
     "工作经验/assets/项目管理.xmind",
-    "工作经验/工作经验.md",
-    "index.md",
     "工作经验/assets/软件工程化管理.xmind",
     "工作经验/assets/软件工程化管理.png",
     "工作经验/assets",
     "工作经验/如何忽略项目中的特定警告.md",
-    "工作经验/快速找到哪个元素产生的滚动.md",
     "NestJS/NestJS.md",
     "NestJS/index.md",
     "NestJS/Nest. js 学习资源整理.md",
@@ -227,11 +230,7 @@
     "工作经验/自己写的一个获取、缓存字典的hook.md",
     "about.md",
     "assets/Excalidraw/Drawing 2025-02-27 10.18.27.png",
-    "assets/Excalidraw/Drawing 2025-02-27 10.18.27.md",
-    "assets/Excalidraw/Drawing 2025-02-27 10.18.25.md",
-    "assets/Excalidraw/Drawing 2025-02-27 10.18.17.md",
     "assets/Excalidraw",
-    "常用库&解决方案/视差滚动/assets/background-attachment.html",
     "常用库&解决方案/视差滚动/assets/GIF 2025-2-27 9-53-30.gif",
     "常用库&解决方案/视差滚动/assets/076e1d83c07a37eb2c22fb62aea4778b_MD5.png",
     "常用库&解决方案/视差滚动/assets/5c78078f54b799a4e7742ee65be3836a_MD5.png",

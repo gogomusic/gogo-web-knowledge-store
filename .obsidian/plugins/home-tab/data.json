@@ -24,20 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "README.md",
-      "timestamp": 1747913209508
+      "filepath": "工作经验/快速找到哪个元素产生的滚动.md",
+      "timestamp": 1747979811412
     },
     {
-      "filepath": "工作经验/项目管理.md",
-      "timestamp": 1747913209373
+      "filepath": "常用库&解决方案/视差滚动/视差滚动.md",
+      "timestamp": 1747979809410
+    },
+    {
+      "filepath": "常用库&解决方案/视差滚动/assets/background-attachment.html",
+      "timestamp": 1747979806438
+    },
+    {
+      "filepath": "工作经验/软件开发流程.md",
+      "timestamp": 1747979502340
     },
     {
       "filepath": "工作经验/软件工程化管理.md",
-      "timestamp": 1747913209326
-    },
-    {
-      "filepath": "服务端渲染(SSR)/Next.js/Node 项目部署.md",
-      "timestamp": 1747913206719
+      "timestamp": 1747979500349
     }
   ],
   "bookmarkedFileStore": [],
