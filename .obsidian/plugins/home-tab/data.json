@@ -24,16 +24,20 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "常用库&解决方案/视差滚动/视差滚动.md",
-      "timestamp": 1747980686204
+      "filepath": "React/index.md",
+      "timestamp": 1747993946018
     },
     {
-      "filepath": "README.md",
-      "timestamp": 1747980686119
+      "filepath": "TypeScript/TypeScript 与组合式 API  Vue.js.md",
+      "timestamp": 1747993935385
     },
     {
-      "filepath": "工作经验/快速找到哪个元素产生的滚动.md",
-      "timestamp": 1747980678959
+      "filepath": "TypeScript/tsconfig.json 详解与常用配置（笔记）.md",
+      "timestamp": 1747993934304
+    },
+    {
+      "filepath": "TypeScript/TS 函数重载.md",
+      "timestamp": 1747993933089
     }
   ],
   "bookmarkedFileStore": [],

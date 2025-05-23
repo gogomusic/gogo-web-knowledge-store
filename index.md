@@ -3,8 +3,11 @@
 layout: home
 hero:
   name: "Web Knowledge Store"
-  text: "静夜聆雨的WEB前端学习笔记"
+  text: "静夜聆雨的 Web 前端学习笔记"
   tagline: 妄想记录所有的前端开发知识 (已放弃😂)
+  image:
+    src: /gogo.png
+    alt: 静夜聆雨
   actions:
     - theme: brand
       text: 前端导航
@@ -15,19 +18,19 @@ hero:
 features:
   - icon:
       src: /icons/HTML.svg
-    title: HTML
-    details: HTML、HTML5
-    link: /HTML/img
+    title: 前端基础
+    details: HTML、CSS、JavaScript，浏览器与网络
+    link: /前端基础/HTML/img
   - icon:
-      src: /icons/CSS.svg
-    title: CSS
-    details: HTML、CSS3
-    link: /CSS/CSS常用样式
+      src: /icons/Vue.svg
+    title: Vue
+    details: 渐进式 JavaScript 框架
+    link: /Vue/Vue3
   - icon:
-      src: /icons/chrome.svg
-    title: 浏览器与网络
-    details: 浏览器与网络协议相关知识
-    link: /浏览器与网络/强缓存与协商缓存
+      src: /icons/React.svg
+    title: React
+    details: 用于构建 Web 和原生交互界面的库
+    link: /React
   - icon:
       src: /icons/Node.js.svg
     title: Node.js

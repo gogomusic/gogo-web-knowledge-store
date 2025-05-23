@@ -62,16 +62,15 @@
   "LICENSE": "🇱🇮",
   "服务端渲染(SSR)/Next.js/Next.js语言切换.canvas": "RiDashboardFill",
   "Inbox": "LiInbox",
-  "HTML": "RiHtml5Line",
-  "CSS": "RiCss3Line",
   "React": "RiReactjsFill",
   "Vue": "FabVuejs",
-  "VSCode": "LiSidebarLeft",
-  "JavaScript": "RiJavascriptLine",
   "Node.js": "FabNode",
   "TypeScript": "LiType",
   "多平台开发": "RiHtml5Fill",
   "常用库&解决方案": "RiNpmjsFill",
   "服务端渲染(SSR)": "LiServer",
-  "工作经验": "LiWorkflow"
+  "前端基础/HTML": "RiHtml5Line",
+  "前端基础/CSS": "RiCss3Line",
+  "前端基础/JavaScript": "RiJavascriptLine",
+  "经验积累": "LiWorkflow"
 }

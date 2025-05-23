@@ -1,8 +1,11 @@
+# Provide & Inject
+
 详见：[Provide / Inject | Vue.js (vuejs.org)](https://v3.cn.vuejs.org/guide/component-provide-inject.html)
 
-作用：在深度嵌套的组件中，将 prop 沿着组件链逐级传递会很麻烦。使用 Provide/Inject可以直接将父组件的数据传递给子孙组件
+作用：在深度嵌套的组件中，将 prop 沿着组件链逐级传递会很麻烦。使用 Provide/Inject 可以直接将父组件的数据传递给子孙组件
 
-## 示例1：提供静态数据并提供默认值
+## 示例 1：提供静态数据并提供默认值
+
 ***father.vue***
 ```vue
 <script lang="ts">
@@ -36,7 +39,7 @@ export default defineComponent({
 </script>
 ```
 
-## 示例2：直接提供响应式数据（不安全）
+## 示例 2：直接提供响应式数据（不安全）
 
 ***father.vue***
 ```vue
@@ -69,7 +72,7 @@ export default defineComponent({
 </script>
 ```
 
-## 示例3：使用readonly，使子组件无法直接修改父组件数据（即使是对象下的属性，也不能直接修改），但是可以由父组件provide一个方法以供子组件修改
+## 示例 3：使用 readonly，使子组件无法直接修改父组件数据（即使是对象下的属性，也不能直接修改），但是可以由父组件 provide 一个方法以供子组件修改
 
 ***father.vue***
 ```vue
@@ -112,7 +115,7 @@ export default defineComponent({
 </template>
 ```
 
-## 示例4：推荐用法（安全，无报错）。最好给inject提供默认值
+## 示例 4：推荐用法（安全，无报错）。最好给 inject 提供默认值
 
 ***father.vue***
 ```vue
