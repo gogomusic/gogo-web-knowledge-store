@@ -6,7 +6,7 @@ hero:
   text: "静夜聆雨的 Web 前端学习笔记"
   tagline: 妄想记录所有的前端开发知识 (已放弃😂)
   image:
-    src: /gogo.png
+    src: /gogo.jpg
     alt: 静夜聆雨
   actions:
     - theme: brand
@@ -51,7 +51,7 @@ features:
     details: 常用的工具库和npm包
     link: /常用库&解决方案/
   - icon:
-      src: /icons/Nahida.jpg
+      src: /icons/Nahida.png
     title: 经验积累
     details: 工作、学习经验记录
     link: /经验积累/
