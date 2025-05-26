@@ -1,3 +1,34 @@
+*.jpg binary -text
+*.jpeg binary -text
+*.png binary -text
+*.gif binary -text
+*.webp binary -text
+*.bmp binary -text
+*.ico binary -text
+*.svg binary -text
+*.pdf binary -text
+*.zip binary -text
+*.tar binary -text
+*.gz binary -text
+*.rar binary -text
+*.7z binary -text
+*.mp3 binary -text
+*.wav binary -text
+*.mp4 binary -text
+*.mov binary -text
+*.avi binary -text
+*.wmv binary -text
+*.flv binary -text
+*.mkv binary -text
+*.exe binary -text
+*.dll binary -text
+*.so binary -text
+*.bin binary -text
+*.ttf binary -text
+*.woff binary -text
+*.woff2 binary -text
+*.eot binary -text
+
 # 使所有文件使用 LF 作为换行符
 * text eol=lf
 
