@@ -1,17 +1,19 @@
 ---
 aliases:
-  - TypeScript 与组合式 API | Vue.js
+  - TypeScript 与组合式 API
 created: 2023-07-10 09:03
 source: https://cn.vuejs.org/guide/typescript/composition-api.html#typing-component-template-refs
 updated: 2023-07-26 15:06
 ---
 
-# TypeScript 与组合式 API | Vue.js
+# TypeScript 与组合式 API
 
 > ## Excerpt
+>
 > Vue.js - 渐进式的 JavaScript 框架
 
 ---
+
 > 这一章假设你已经阅读了 [搭配 TypeScript 使用 Vue](https://cn.vuejs.org/guide/typescript/overview.html) 的概览。
 
 ## 为组件的 props 标注类型
@@ -24,11 +26,11 @@ updated: 2023-07-26 15:06
 <script setup lang="ts">
 const props = defineProps({
   foo: { type: String, required: true },
-  bar: Number
-})
+  bar: Number,
+});
 
-props.foo // string
-props.bar // number | undefined
+props.foo; // string
+props.bar; // number | undefined
 </script>
 ```
 
@@ -39,9 +41,9 @@ props.bar // number | undefined
 ```vue
 <script setup lang="ts">
 const props = defineProps<{
-  foo: string
-  bar?: number
-}>()
+  foo: string;
+  bar?: number;
+}>();
 </script>
 ```
 
@@ -54,11 +56,11 @@ const props = defineProps<{
 ```vue
 <script setup lang="ts">
 interface Props {
-  foo: string
-  bar?: number
+  foo: string;
+  bar?: number;
 }
 
-const props = defineProps<Props>()
+const props = defineProps<Props>();
 </script>
 ```
 
@@ -68,25 +70,29 @@ const props = defineProps<Props>()
 
 - 一个类型字面量：
 
-    ```ts
-    defineProps<{ /*... */ }>()
-    ```
+  ```ts
+  defineProps<{
+    /*... */
+  }>();
+  ```
 
 - 对**同一个文件**中的一个接口或对象类型字面量的引用：
 
-    ```ts
-    interface Props {/* ... */}
-    
-    defineProps<Props>()
-    ```
+  ```ts
+  interface Props {
+    /* ... */
+  }
+
+  defineProps<Props>();
+  ```
 
 接口或对象字面类型可以包含从其他文件导入的类型引用，但是，传递给 `defineProps` 的泛型参数本身**不能**是一个导入的类型：
 
 ```ts
-import { Props } from './other-file'
+import { Props } from "./other-file";
 
 // 不支持！
-defineProps<Props>()
+defineProps<Props>();
 ```
 
 这是因为 Vue 组件是单独编译的，编译器目前不会抓取导入的文件以分析源类型。我们计划在未来的版本中解决这个限制。
@@ -98,13 +104,13 @@ defineProps<Props>()
 ```vue
 <script setup lang="ts">
 interface Props {
-  foo: string
-  bar?: number
+  foo: string;
+  bar?: number;
 }
 
 // 对 defineProps() 的响应性解构
 // 默认值会被编译为等价的运行时选项
-const { foo, bar = 100 } = defineProps<Props>()
+const { foo, bar = 100 } = defineProps<Props>();
 </script>
 ```
 
@@ -115,16 +121,16 @@ const { foo, bar = 100 } = defineProps<Props>()
 如果没有使用 `<script setup>`，那么为了开启 props 的类型推导，必须使用 `defineComponent()`。传入 `setup()` 的 props 对象类型是从 `props` 选项中推导而来。
 
 ```ts
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
   props: {
-    message: String
+    message: String,
   },
   setup(props) {
-    props.message // <-- 类型：string
-  }
-})
+    props.message; // <-- 类型：string
+  },
+});
 ```
 
 ## 为组件的 emits 标注类型
@@ -134,13 +140,13 @@ export default defineComponent({
 ```vue
 <script setup lang="ts">
 // 运行时
-const emit = defineEmits(['change', 'update'])
+const emit = defineEmits(["change", "update"]);
 
 // 基于类型
 const emit = defineEmits<{
-  (e: 'change', id: number): void
-  (e: 'update', value: string): void
-}>()
+  (e: "change", id: number): void;
+  (e: "update", value: string): void;
+}>();
 </script>
 ```
 
@@ -149,14 +155,14 @@ const emit = defineEmits<{
 若没有使用 `<script setup>`，`defineComponent()` 也可以根据 `emits` 选项推导暴露在 setup 上下文中的 `emit` 函数的类型：
 
 ```ts
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  emits: ['change'],
+  emits: ["change"],
   setup(props, { emit }) {
-    emit('change') // <-- 类型检查 / 自动补全
-  }
-})
+    emit("change"); // <-- 类型检查 / 自动补全
+  },
+});
 ```
 
 ## 为 `ref()` 标注类型
@@ -164,40 +170,40 @@ export default defineComponent({
 ref 会根据初始化时的值推导其类型：
 
 ```ts
-import { ref } from 'vue'
+import { ref } from "vue";
 
 // 推导出的类型：Ref<number>
-const year = ref(2020)
+const year = ref(2020);
 
 // => TS Error: Type 'string' is not assignable to type 'number'.
-year.value = '2020'
+year.value = "2020";
 ```
 
 有时我们可能想为 ref 内的值指定一个更复杂的类型，可以通过使用 `Ref` 这个类型：
 
 ```ts
-import { ref } from 'vue'
-import type { Ref } from 'vue'
+import { ref } from "vue";
+import type { Ref } from "vue";
 
-const year: Ref<string | number> = ref('2020')
+const year: Ref<string | number> = ref("2020");
 
-year.value = 2020 // 成功！
+year.value = 2020; // 成功！
 ```
 
 或者，在调用 `ref()` 时传入一个泛型参数，来覆盖默认的推导行为：
 
 ```ts
 // 得到的类型：Ref<string | number>
-const year = ref<string | number>('2020')
+const year = ref<string | number>("2020");
 
-year.value = 2020 // 成功！
+year.value = 2020; // 成功！
 ```
 
 如果你指定了一个泛型参数但没有给出初始值，那么最后得到的就将是一个包含 `undefined` 的联合类型：
 
 ```ts
 // 推导得到的类型：Ref<number | undefined>
-const n = ref<number>()
+const n = ref<number>();
 ```
 
 ## 为 `reactive()` 标注类型
@@ -205,23 +211,23 @@ const n = ref<number>()
 `reactive()` 也会隐式地从它的参数中推导类型：
 
 ```ts
-import { reactive } from 'vue'
+import { reactive } from "vue";
 
 // 推导得到的类型：{ title: string }
-const book = reactive({ title: 'Vue 3 指引' })
+const book = reactive({ title: "Vue 3 指引" });
 ```
 
 要显式地标注一个 `reactive` 变量的类型，我们可以使用接口：
 
 ```ts
-import { reactive } from 'vue'
+import { reactive } from "vue";
 
 interface Book {
-  title: string
-  year?: number
+  title: string;
+  year?: number;
 }
 
-const book: Book = reactive({ title: 'Vue 3 指引' })
+const book: Book = reactive({ title: "Vue 3 指引" });
 ```
 
 ```[!tip]
@@ -233,15 +239,15 @@ const book: Book = reactive({ title: 'Vue 3 指引' })
 `computed()` 会自动从其计算函数的返回值上推导出类型：
 
 ```ts
-import { ref, computed } from 'vue'
+import { ref, computed } from "vue";
 
-const count = ref(0)
+const count = ref(0);
 
 // 推导得到的类型：ComputedRef<number>
-const double = computed(() => count.value * 2)
+const double = computed(() => count.value * 2);
 
 // => TS Error: Property 'split' does not exist on type 'number'
-const result = double.value.split('')
+const result = double.value.split("");
 ```
 
 你还可以通过泛型参数显式指定类型：
@@ -249,7 +255,7 @@ const result = double.value.split('')
 ```ts
 const double = computed<number>(() => {
   // 若返回值不是 number 类型则会报错
-})
+});
 ```
 
 ## 为事件处理函数标注类型
@@ -260,7 +266,7 @@ const double = computed<number>(() => {
 <script setup lang="ts">
 function handleChange(event) {
   // `event` 隐式地标注为 `any` 类型
-  console.log(event.target.value)
+  console.log(event.target.value);
 }
 </script>
 
@@ -273,7 +279,7 @@ function handleChange(event) {
 
 ```ts
 function handleChange(event: Event) {
-  console.log((event.target as HTMLInputElement).value)
+  console.log((event.target as HTMLInputElement).value);
 }
 ```
 
@@ -282,14 +288,14 @@ function handleChange(event: Event) {
 provide 和 inject 通常会在不同的组件中运行。要正确地为注入的值标记类型，Vue 提供了一个 `InjectionKey` 接口，它是一个继承自 `Symbol` 的泛型类型，可以用来在提供者和消费者之间同步注入值的类型：
 
 ```ts
-import { provide, inject } from 'vue'
-import type { InjectionKey } from 'vue'
+import { provide, inject } from "vue";
+import type { InjectionKey } from "vue";
 
-const key = Symbol() as InjectionKey<string>
+const key = Symbol() as InjectionKey<string>;
 
-provide(key, 'foo') // 若提供的是非字符串值会导致错误
+provide(key, "foo"); // 若提供的是非字符串值会导致错误
 
-const foo = inject(key) // foo 的类型：string | undefined
+const foo = inject(key); // foo 的类型：string | undefined
 ```
 
 建议将注入 key 的类型放在一个单独的文件中，这样它就可以被多个组件导入。
@@ -297,7 +303,7 @@ const foo = inject(key) // foo 的类型：string | undefined
 当使用字符串注入 key 时，注入值的类型是 `unknown`，需要通过泛型参数显式声明：
 
 ```ts
-const foo = inject<string>('foo') // 类型：string | undefined
+const foo = inject<string>("foo"); // 类型：string | undefined
 ```
 
 注意注入的值仍然可以是 `undefined`，因为无法保证提供者一定会在运行时 provide 这个值。
@@ -305,13 +311,13 @@ const foo = inject<string>('foo') // 类型：string | undefined
 当提供了一个默认值后，这个 `undefined` 类型就可以被移除：
 
 ```ts
-const foo = inject<string>('foo', 'bar') // 类型：string
+const foo = inject<string>("foo", "bar"); // 类型：string
 ```
 
 如果你确定该值将始终被提供，则还可以强制转换该值：
 
 ```ts
-const foo = inject('foo') as string
+const foo = inject("foo") as string;
 ```
 
 ## 为模板引用标注类型
@@ -320,13 +326,13 @@ const foo = inject('foo') as string
 
 ```vue
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from "vue";
 
-const el = ref<HTMLInputElement | null>(null)
+const el = ref<HTMLInputElement | null>(null);
 
 onMounted(() => {
-  el.value?.focus()
-})
+  el.value?.focus();
+});
 </script>
 
 <template>
@@ -343,14 +349,14 @@ onMounted(() => {
 ```vue
 <!-- MyModal.vue -->
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const isContentShown = ref(false)
-const open = () => (isContentShown.value = true)
+const isContentShown = ref(false);
+const open = () => (isContentShown.value = true);
 
 defineExpose({
-  open
-})
+  open,
+});
 </script>
 ```
 
@@ -359,13 +365,13 @@ defineExpose({
 ```vue
 <!-- App.vue -->
 <script setup lang="ts">
-import MyModal from './MyModal.vue'
+import MyModal from "./MyModal.vue";
 
-const modal = ref<InstanceType<typeof MyModal> | null>(null)
+const modal = ref<InstanceType<typeof MyModal> | null>(null);
 
 const openModal = () => {
-  modal.value?.open()
-}
+  modal.value?.open();
+};
 </script>
 ```
 
@@ -375,13 +381,13 @@ const openModal = () => {
 
 ```ts
 // main.ts
-import Loading from '/@/components/Loading.vue'
-export type LoadingType = InstanceType<typeof Loading>
+import Loading from "/@/components/Loading.vue";
+export type LoadingType = InstanceType<typeof Loading>;
 ```
 
 ```vue
 //layout.vue
-<script lang=ts>
+<script lang="ts">
 ...
 import type { LoadingType } from '/@/main'
 </script>
