@@ -4,18 +4,8 @@ git commit --amend 修改上次提交，使用该命令后，可以修改上次�
 
 git rebase
 
-## git rebase 变基
 
-![git rebase详解](assets/(1条消息)%20git%20rebase详解（图解+最简单示例，一次就懂）_风中一匹狼v的博客-CSDN博客_git%20rebase.md)
 
-## git cherry-pick 拣选
-
->[!warning] 注意
->cherry-pick 很容易造成问题。但是如果你的两个分支是两个单独的分支，永远不会相互 merge，那么就可以使用 cherry-pick
->
->参考：[经验：停止 cherry-pick，请开始 merge！-阿里云开发者社区 (aliyun.com)](https://developer.aliyun.com/article/886613)
-
-![git cherry-pick 教程 - 阮一峰的网络日志](assets/git%20cherry-pick%20教程%20-%20阮一峰的网络日志.md)
 
 ## Fork 派生
 

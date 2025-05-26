@@ -13,14 +13,14 @@ hero:
       text: 前端导航
       link: /nav
     - theme: alt
-      text: 关于本站
+      text: 关于本站（必读）
       link: /about
 features:
   - icon:
       src: /icons/HTML.svg
     title: 前端基础
-    details: HTML、CSS、JavaScript，浏览器与网络
-    link: /前端基础/HTML/img
+    details: HTML、CSS、JavaScript、浏览器、网络等...
+    link: /前端基础/CSS/CSS常用样式
   - icon:
       src: /icons/Vue.svg
     title: Vue
@@ -32,10 +32,29 @@ features:
     details: 用于构建 Web 和原生交互界面的库
     link: /React
   - icon:
+      src: /icons/TypeScript.svg
+    title: TypeScript
+    details: 具有类型语法的 JavaScript
+    link: /TypeScript
+  - icon:
       src: /icons/Node.js.svg
     title: Node.js
     details: 基于 Chrome V8 引擎的 JavaScript 运行环境
     link: /Node.js/
+  - icon: 🧐
+    title: 前端工程化
+    details: 从开发、构建、测试、部署到上线
+    link: /前端工程化/
+  - icon:
+      src: /icons/npm.svg
+    title: 常用库&解决方案
+    details: 常用的工具库和npm包
+    link: /常用库&解决方案/
+  - icon:
+      src: /icons/Nahida.jpg
+    title: 经验积累
+    details: 工作、学习经验记录
+    link: /经验积累/
   - icon:
       src: /icons/NestJS.svg
     title: NestJS

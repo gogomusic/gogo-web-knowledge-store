@@ -66,7 +66,6 @@
   "Vue": "FabVuejs",
   "Node.js": "FabNode",
   "TypeScript": "LiType",
-  "多平台开发": "RiHtml5Fill",
   "常用库&解决方案": "RiNpmjsFill",
   "服务端渲染(SSR)": "LiServer",
   "前端基础/HTML": "RiHtml5Line",

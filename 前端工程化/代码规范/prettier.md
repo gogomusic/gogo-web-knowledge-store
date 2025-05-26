@@ -1,4 +1,6 @@
->[Prettier中文网](https://prettier.nodejs.cn/docs/en/install.html)
+# prettier
+
+> [Prettier中文网](https://prettier.nodejs.cn/docs/en/install.html)
 
 ## 安装
 

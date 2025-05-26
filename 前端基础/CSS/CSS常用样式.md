@@ -52,7 +52,7 @@ html {
 #### 小于 12 px 的字体
 
 <style module>
-      .font-sm {
+      .font-sm>div{
         display: block;
         font-size: 12px;
         transform-origin: 0 0;
@@ -92,24 +92,28 @@ html {
       .font-11 {
         transform: scale(0.17, 0.17);
       }
-    </style>
-<div class="font-sm font-1">1px</div>
-    <div class="font-sm font-2">2px</div>
-    <div class="font-sm font-3">3px</div>
-    <div class="font-sm font-4">4px</div>
-    <div class="font-sm font-5">5px</div>
-    <div class="font-sm font-6">6px</div>
-    <div class="font-sm font-7">7px</div>
-    <div class="font-sm font-8">8px</div>
-    <div class="font-sm font-9">9px</div>
-    <div class="font-sm font-10">10px</div>
+</style>
+<div :class="$style['font-sm']">
+    <div :class="$style['font-1']">1px</div>
+    <div :class="$style['font-2']">2px</div>
+    <div :class="$style['font-3']">3px</div>
+    <div :class="$style['font-4']">4px</div>
+    <div :class="$style['font-5']">5px</div>
+    <div :class="$style['font-6']">6px</div>
+    <div :class="$style['font-7']">7px</div>
+    <div :class="$style['font-8']">8px</div>
+    <div :class="$style['font-9']">9px</div>
+    <div :class="$style['font-10']">10px</div>
+</div>
+
+::: details 查看代码
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-widthinitial-scale=1.0" />
     <style>
       .font-sm {
         display: block;
@@ -169,6 +173,8 @@ html {
 </html>
 
 ```
+
+:::
 
 #### 滚动条样式
 
@@ -255,7 +261,7 @@ html {
       </div>
     </div>
 
-::: details 点我查看代码
+::: details 查看代码
 
 ```html
 <style>

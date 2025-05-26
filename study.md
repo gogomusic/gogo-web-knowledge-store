@@ -63,7 +63,7 @@
 		- [ ] Pro Components  ★★★☆
 	- [ ] Tailwind UI
 	- [x] Bootstrap ★★☆☆
-- [ ] 多平台开发
+- [ ] 跨平台
 	- [ ] PC
 		- [ ] 官网
 			- [ ] 响应式开发

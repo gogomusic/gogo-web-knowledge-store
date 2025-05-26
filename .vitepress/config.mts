@@ -30,10 +30,18 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "前端导航", link: "/nav" },
       {
-        text: "前端笔记",
-        items: [{ text: "前端基础", link: "/前端基础/HTML/img" }],
+        text: "前端",
+        items: [
+          { text: "前端导航", link: "/nav" },
+          { text: "前端基础", link: "/前端基础/CSS/CSS常用样式" },
+          { text: "Vue", link: "/Vue/Vue3" },
+          { text: "React", link: "/React" },
+          { text: "TypeScript", link: "/TypeScript" },
+          { text: "Node.js", link: "/Node.js" },
+          { text: "前端工程化", link: "/前端工程化" },
+          { text: "常用库&解决方案", link: "/常用库&解决方案" },
+        ],
       },
 
       { text: "学习计划", link: "/study" },
@@ -45,9 +53,10 @@ export default defineConfig({
         "Vue",
         "React",
         "TypeScript",
+        "Node.js",
         "经验积累",
         "常用库&解决方案",
-        "多平台开发",
+        "跨平台",
         "服务端渲染(SSR)",
         "前端工程化",
         "数据库",
