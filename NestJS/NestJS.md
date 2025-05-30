@@ -13,3 +13,14 @@
 		- 属性装饰器：@IsNotEmpty、@IsString、@IsNumber
 		- 参数装饰器：@Body、@Param、@Query
 		- 访问器装饰器
+
+# NestJS
+
+
+## 服务端开发流程
+
+![](assets/image.png)
+
+## 接口开发中的核心技术
+
+![](assets/image%201.png)

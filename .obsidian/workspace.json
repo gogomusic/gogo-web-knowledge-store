@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7694d08aad557c79",
+        "id": "d24a8bb446389dca",
         "type": "tabs",
         "children": [
           {
-            "id": "ec5c58d903fa7fee",
+            "id": "eb12208ee0a94637",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内容为个人笔记，",
+                "query": "PM2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5110321044922
+    "width": 271.5
   },
   "right": {
     "id": "ec17f6e1f4d250ee",
@@ -158,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 275.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,8 +185,13 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "ec5c58d903fa7fee",
+  "active": "eb12208ee0a94637",
   "lastOpenFiles": [
+    "服务端渲染(SSR)/Next.js/Node 项目部署.md",
+    "NestJS/index.md",
+    "NestJS/NestJS.md",
+    "NestJS/Nest. js 学习资源整理.md",
+    "README.md",
     "后端/Nginx/Nginx 简易使用.md",
     "经验积累/工作经验.md",
     "经验积累/网站运行状态监控.md",
@@ -212,13 +217,8 @@
     "前端工程化/index.md",
     "后端/Docker",
     "后端/Nginx",
-    "Node.js/index.md",
     "后端",
-    "TypeScript/TypeScript 与组合式 API .md",
     "public/icons/TypeScript.svg",
-    "README.md",
-    "TypeScript/index.md",
-    "React/React KeepAlive/Umi 3 中实现方案/Umi 3 中实现方案.md",
     "前端基础/浏览器与网络/assets/c01ecec2a77ee7eb2868cfa62a80821b_MD5.png",
     "前端基础/浏览器与网络/assets/d1b283eed4d97578984e48e7ae6a0ceb_MD5.png",
     "前端基础/浏览器与网络/assets/3fa44775a15c235883b217a8675fe8a7_MD5.png",

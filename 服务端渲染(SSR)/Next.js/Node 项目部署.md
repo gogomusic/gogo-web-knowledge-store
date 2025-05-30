@@ -47,4 +47,12 @@
 
 `pm2 reload "your-app-name"`
 
+6、**删除应用**
+
+`pm2 delete "your-app-name"`
+
+或者，如果知道应用程序的 ID（例如 ID 为 0），可以使用以下命令：
+
+`pm2 delete 0`
+
 这些基本命令足以让你在 PM2 上管理你的 Next.js 应用。
