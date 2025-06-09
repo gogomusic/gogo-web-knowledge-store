@@ -34,7 +34,7 @@ pnpm start:dev
 
 > [!tip]
 > 1. 如果项目中出现换行符警告（`prettier` 提示的），可以在 `.prettierrc` 文件中添加一句 `"endOfLine": "crlf"`
-> 2. 启用 `--type-check` 选项后 ` express ` 模块需要显式安装。因为其并未用到，我将其安装到开发依赖避免打包进生产构建：`pnpm add -D express`
+> 2. 启用 `--type-check` 选项后 ` express ` 模块需要显式安装，否则 TS 会报错，我将其安装到开发依赖避免打包进生产构建：`pnpm add -D express`
 
 ## 概述
 
