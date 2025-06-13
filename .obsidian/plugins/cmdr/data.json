@@ -23,6 +23,12 @@
       "icon": "lucide-navigation",
       "name": "文件列表: 在文件列表中显示当前文件",
       "mode": "any"
+    },
+    {
+      "id": "drawio-obsidian:create-new-diagram",
+      "icon": "lucide-image-plus",
+      "name": "新建draw.io绘图",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
