@@ -1,4 +1,4 @@
-<p align="left"><center><img src="assets/ee0335907f904c76e98c34300c82b2e7_MD5.png"/></center></p>
+<p align="left"><center><img src="./assets/ee0335907f904c76e98c34300c82b2e7_MD5.png"/></center></p>
 
 # RestFul API
 
@@ -9,4 +9,4 @@
 
 关于 RestFul API 的资料网上很容易查到，也可以参考：[RESTful API 教程 | 菜鸟教程](https://www.runoob.com/restfulapi/restful-api-tutorial.html)。
 
-目前应该是不会在项目中使用，作为一种非强制性的编码风格，是否使用还是得根据团队内部是否能达成共识。从我待过的公司来看 100% 都没有使用这个规范😂
+目前应该是不会在项目中使用，作为一种非强制性的编码风格，是否使用还是得根据团队内部是否能达成共识。从我待过的公司来看 100% 都没有使用这个规范 😂
