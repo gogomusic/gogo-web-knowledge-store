@@ -1,7 +1,35 @@
+# useDict - 一个获取、缓存字典的 hook
+
+这是一个用于在 React 项目中缓存字典数据的 hook，当缓存选项设置为 `true` 时，仅在首次使用字典时发起请求，已请求过的字典将被缓存。当缓存选项设置为 `false` 时，每次使用字典时都会重新请求。如果多个组件同时调用该 hook，也仅会请求一次，后续请求将等待第一个请求的结果
+
+## common. ts
+
+```ts
+import { useState } from 'react';
+
+export default () => {
+  /** 动态字典 */
+  const [dicts, setDicts] = useState<Record<string, { label: string; value: string }[]>>({});
+
+  return {
+    dicts,
+    setDicts,
+  };
+};
+
+```
+
+## useDict.ts
+
 ```ts
 import { DICT_GET_SELECT } from '@/services/admin/dict';
 import { useModel } from 'umi';
 import { useCallback, useEffect, useState } from 'react';
+
+interface Option {
+  label: string;
+  value: string | number;
+};
 
 /** 是否缓存字典
  *
@@ -58,4 +86,19 @@ const useDict = (dictCode: string) => {
 
 export default useDict;
 
+```
+
+## 使用
+
+使用时，传入字典的 `key` 即可：
+
+```ts
+import useDict from '@/hooks/useDict';
+
+const Demo:React.FC = () => {
+	const [customer_type_dict] = useDict('customer_type');
+	return <>
+		// 你的组件内容	
+		</>
+}
 ```

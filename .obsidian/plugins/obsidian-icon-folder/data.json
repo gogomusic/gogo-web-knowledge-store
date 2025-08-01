@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabInternetExplorer",
       "RiJavaLine",
       "FabJava",
       "LiChrome",
-      "LiPackage",
-      "RiNpmjsFill"
+      "LiPackage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -71,5 +71,7 @@
   "前端基础/HTML": "RiHtml5Line",
   "前端基础/CSS": "RiCss3Line",
   "前端基础/JavaScript": "RiJavascriptLine",
-  "经验积累": "LiWorkflow"
+  "经验积累": "LiWorkflow",
+  "后端开发": "RiJavaLine",
+  "计算机网络": "FabInternetExplorer"
 }

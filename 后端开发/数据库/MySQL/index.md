@@ -4,7 +4,7 @@
 
 https://www.bilibili.com/video/BV1Kr4y1i7ru
 
-![](assets/image.png)
+![](../../NestJS/assets/image.png)
 
 - [x] [基础篇](#基础篇) ★★
 - [ ] [进阶篇](#进阶篇) ★★★
@@ -25,9 +25,9 @@ https://www.bilibili.com/video/BV1Kr4y1i7ru
 
 ### MySQL 概述
 
-![](assets/image%201.png)
+![](../../NestJS/assets/image%201.png)
 
-![](assets/image%202.png)
+![](../../../Node.js/assets/image%202.png)
 
 ### SQL
 

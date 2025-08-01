@@ -19,8 +19,8 @@
 
 ## 服务端开发流程
 
-![](assets/image.png)
+![](../../Node.js/assets/image.png)
 
 ## 接口开发中的核心技术
 
-![](assets/image%201.png)
+![](../../Node.js/assets/image%201.png)
