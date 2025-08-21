@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { tasklist } from "@mdit/plugin-tasklist";
 import { generateSidebar } from "vitepress-sidebar";
+import footnotePlugin from "markdown-it-footnote";
 
 const base = "/gogo-web-knowledge-store/";
 
@@ -59,8 +60,6 @@ export default defineConfig({
         "跨平台",
         "服务端渲染(SSR)",
         "前端工程化",
-        "数据库",
-        "NestJS",
       ].map(item => ({
         scanStartPath: item,
         basePath: `/${item}/`,
@@ -88,7 +87,7 @@ export default defineConfig({
   },
   markdown: {
     config: md => {
-      md.use(tasklist);
+      md.use(tasklist).use(footnotePlugin);
     },
   },
   vite: {

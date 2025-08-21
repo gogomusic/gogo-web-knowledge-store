@@ -85,5 +85,15 @@
       ],
       "key": "B"
     }
-  ]
+  ],
+  "obsidian-linter:paste-as-plain-text": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-paste-without-format": []
 }

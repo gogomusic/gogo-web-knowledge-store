@@ -31,9 +31,13 @@
   "devDependencies": {
     "@mdit-vue/shared": "^2.1.4",
     "@mdit/plugin-tasklist": "^0.18.0",
+    "@types/markdown-it-footnote": "^3.0.4",
     "sass-embedded": "^1.89.0",
     "vitepress": "^2.0.0-alpha.5",
     "vitepress-sidebar": "^1.31.1",
     "vue": "^3.5.14"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^4.0.0"
   }
 }

@@ -1,9 +1,16 @@
 ---
-title: "Web Knowledge Store"
-alias: "静夜聆雨的WEB前端学习笔记"
-author: "静夜聆雨"
-e-mail: "1450820572@qq.com"
-tags: 前端, HTML, CSS, Javascript, Vue, React
+title: Web Knowledge Store
+aliases:
+  - 静夜聆雨的WEB前端学习笔记
+author: 静夜聆雨
+e-mail: 1450820572@qq.com
+tags:
+  - 前端
+  - HTML
+  - CSS
+  - Javascript
+  - Vue
+  - React
 ---
 
 # Web Knowledge Store
@@ -12,7 +19,7 @@ tags: 前端, HTML, CSS, Javascript, Vue, React
 
 妄想记录所有的前端开发知识 (已放弃 😂)
 
-本站内容为个人笔记，参考借鉴了众多资料，转载部分均已尽可能标明出处，仅供参考学习之用。
+本站内容为个人笔记，参考借鉴了众多资料，并加上了自己的理解，有错误或疏漏在所难免，敬请谅解！转载部分均已尽可能标明出处，仅供参考学习之用。
 
 如有错误或疏漏，敬请谅解！
 
