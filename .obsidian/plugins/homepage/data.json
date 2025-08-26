@@ -4,8 +4,7 @@
     "Main Homepage": {
       "value": "Home",
       "kind": "Workspace",
-      "openOnStartup": true,
-      "hasRibbonIcon": true,
+      "openOnStartup": false,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Reading view",
@@ -16,7 +15,9 @@
       "autoScroll": false,
       "pin": false,
       "commands": [],
-      "alwaysApply": false
+      "alwaysApply": false,
+      "hideReleaseNotes": false,
+      "hasRibbonIcon": true
     }
   },
   "separateMobile": false

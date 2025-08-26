@@ -11,7 +11,7 @@ TS 属于结构类型系统，在结构类型系统中，如果两个对象具�
 
 ## 类型
 
-### 基础类型：`string`, `number`, `boolean`
+### `string`, `number`, `boolean`, `bigint`, `symbol`
 
 ### `null` 和 `undefined`
 
