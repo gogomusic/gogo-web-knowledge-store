@@ -6,7 +6,7 @@ source: https://cn.vuejs.org/guide/typescript/composition-api.html#typing-compon
 updated: 2023-07-26 15:06
 ---
 
-# TypeScript 与组合式 API
+# TypeScript 与 Vue 组合式 API
 
 > ## Excerpt
 >

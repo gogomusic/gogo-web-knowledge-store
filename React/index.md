@@ -50,3 +50,7 @@ setEnabled(e => !e);setLastName(ln => ln.reverse());setFriendCount(fc => fc * 2)
 >React 允许你覆盖默认行为，可通过向组件传递一个唯一 `key`（如 `<Chat key={email}/>` 来**强制**重置其状态。这会告诉 React，如果收件人不同，应将其作为一个 **不同的** `Chat` 组件，需要使用新数据和 UI（比如输入框）来重新创建它。现在，在接收者之间切换时就会重置输入框——即使渲染的是同一个组件。
 - [ ] 进度 [使用 Context 深层传递参数 – React (docschina.org)](https://react.docschina.org/learn/passing-data-deeply-with-context)
 - [ ] [immerjs/use-immer: Use immer to drive state with a React hooks (github.com)](https://github.com/immerjs/use-immer)
+
+## 经验总结
+
+- 最好不要将箭头函数传递给子组件，因为箭头函数在每次渲染时都会重新创建，会导致子组件重复渲染。解决方法可以将箭头函数移到组件外，或者使用 `useCallback` 包裹
