@@ -158,7 +158,7 @@ const husky = (await import('husky')).default
 console.log(husky())
 ```
 
-然后，在 `prepare` 脚本中使用它：
+然后，在 `package.json` 的 ` prepare ` 脚本中使用它：
 
 ```json
 "prepare": "node .husky/install.mjs"

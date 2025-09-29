@@ -618,6 +618,15 @@ interface NumberOrStringDictionary {
 }
 ```
 
+不能在同一个类型中同时声明多个不同类型的索引签名。例如，下面的写法是错误的：
+
+```ts
+interface Example {
+  [key: string]: string;
+  [key: number]: number; // ❌ 不允许
+}
+```
+
 ### 溢出属性检查
 
 下面示例中（请注意，`createSquare` 的给定参数拼写为 `colour`），函数参数 `{ colour: "red", width: 100 }` 和 `SquareConfig` 接口时明明是兼容的（由于它们有公共对象属性，且 `SquareConfig` 中所有属性都是可选的，故兼容），但 TS 仍会报错，这是因为 TS 在将对象字面分配给其他变量或将它们作为参数传递时会得到特殊处理并进行额外的属性检查，即**溢出属性检查**。

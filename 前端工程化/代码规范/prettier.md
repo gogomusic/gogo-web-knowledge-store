@@ -6,22 +6,20 @@
 
 首先，在本地安装 Prettier：
 
+> `--save-exact` 可以固定依赖包的版本
+
 ```bash
 npm install --save-dev --save-exact prettier
-```
-
-```bash
+# 或
 yarn add --dev --exact prettier
-```
-
-```bash
+# 或
 pnpm add --save-dev --save-exact prettier
 ```
 
 然后，创建一个空的配置文件，让编辑器和其他工具知道你正在使用 Prettier：
 
 ```bash
-echo {}> .prettierrc.json
+echo {}> .prettierrc.ts
 ```
 
 以下规则仅供参考：
@@ -51,7 +49,7 @@ module.exports = {
   // jsx 标签的反尖括号需要换行
   jsxBracketSameLine: true,
   // 在单独的箭头函数参数周围包括括号 always：(x) => x \ avoid：x => x
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   // 这两个选项可用于格式化以给定字符偏移量（分别包括和不包括）开始和结束的代码
   rangeStart: 0,
   rangeEnd: Infinity,
@@ -60,7 +58,7 @@ module.exports = {
   // 自动在文件开头插入 @prettier
   insertPragma: false,
   // 使用默认的折行标准 always\never\preserve
-  proseWrap: 'never',
+  proseWrap: 'preserve',
   // 指定HTML文件的全局空格敏感度 css\strict\ignore
   htmlWhitespaceSensitivity: 'css',
   // Vue文件脚本和样式标签缩进
@@ -107,6 +105,8 @@ coverage
 > 提示！将你的 .prettierignore 基于 .gitignore 和 .eslintignore（如果你有的话）。
 
 > 另一个提示！如果你的项目还没有准备好格式化，比如 HTML 文件，请添加 `*.html`。
+
+> 实际开发中，我发现修改配置后，prettier 插件可能未生效，需要重启 vscode
 
 现在，使用 Prettier 格式化所有文件：
 

@@ -16,7 +16,6 @@ npm i -D lint-staged
     "eslint --fix --max-warnings=0"
   ]
 }
-
 ```
 
 也可以在配置文件中配置，这里就略过了
