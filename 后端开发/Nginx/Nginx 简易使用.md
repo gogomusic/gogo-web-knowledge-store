@@ -17,8 +17,7 @@
     ```
 
 7. 在 `/etc/nginx/sites-available` 文件夹中使用编辑器（nano 或 vim）创建网站配置 `sudo nano /etc/nginx/sites-available/[你的配置文件名]`
-
-	```nginx
+```nginx
 	server {
 		listen 80;
 		listen [::]:80;

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f819afdb372d0ee6",
+        "id": "ce70fa1e4a36d19a",
         "type": "tabs",
         "children": [
           {
-            "id": "66010f7bcbd3a90f",
+            "id": "0f800ce2d1d2a6ee",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -49,12 +49,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "强缓存",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "搜索"
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 311.5
   },
   "right": {
     "id": "ec17f6e1f4d250ee",
@@ -169,87 +169,99 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "759cd257d27792f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "前端语言与基础能力/JavaScript/JS注释/JSDoc.md"
+              },
+              "icon": "lucide-info",
+              "title": "JSDoc的笔记属性"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "callout-manager:Insert Callout": false,
-      "cmdr:新建draw.io绘图": false,
       "vscode-editor:新建代码文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "bases:创建新数据库": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "homepage:Open homepage": false,
       "workspaces:管理工作区布局": false,
       "templates:插入模板": false,
       "canvas:新建白板": false,
       "audio-recorder:开始/结束录音": false,
       "graph:查看关系图谱": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "cmdr:文件列表: 在文件列表中显示当前文件": false,
-      "open-vscode:VSCode": false,
       "switcher:打开快速切换": true,
       "command-palette:打开命令面板": true,
       "obsidian-importer:Open Importer": false,
       "chronology:Open Chronology": true,
-      "workspaces-plus:Manage workspaces": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "simple-mind-map:新建思维导图": false,
+      "cmdr:文件列表: 在文件列表中显示当前文件": false,
+      "cmdr:新建draw.io绘图": false,
+      "open-vscode:VS Code": false,
+      "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "3dcbbc8a8c8c0a61",
+  "active": "0f800ce2d1d2a6ee",
   "lastOpenFiles": [
-    "经验积累/中文官网技术总结.md",
-    "Inbox/中文官网/中文官网重难点技术总结.md",
-    "经验积累/中文官网技术总结/assets/image.png",
-    "经验积累/中文官网技术总结/assets/image 1.png",
-    "经验积累/中文官网技术总结/assets",
-    "经验积累/中文官网技术总结",
-    "Inbox/中文官网/React 远程动态组件实现原理.md",
-    "Inbox/防抖与节流.md",
-    "Inbox/动态表单与审批流程.md",
-    "Inbox/npx 使用教程.md",
-    "常用库&解决方案/html-to-text - HTML 转换为文本.md",
-    "常用库&解决方案/index.md",
-    "Inbox/作者： 阮一峰.md",
-    "Inbox/assets/aa16942990055617a62f38f7f8ef21a5_MD5.webp",
-    "Inbox/assets/3ce616934e08c65576a618ab5a8ee400_MD5.jpg",
-    "常用库&解决方案/enum-plus - 一个增强版的枚举类库.md",
-    "常用库&解决方案/assets/6622ea8a6141f8bb7fbd69a209e4e0d4_MD5.svg",
-    "前端工程化/代码规范/husky.md",
-    "前端工程化/代码规范/lint-staged.md",
-    "TypeScript/index.md",
+    "Inbox/前端语音合成播放简单示例（Web Speech API）.md",
     "study.md",
-    "服务端渲染(SSR)/Next.js/Node 项目部署.md",
-    "前端工程化/代码规范/prettier.md",
-    "前端工程化/代码规范/index.md",
-    "前端工程化/代码规范/ESLint.md",
-    "前端工程化/代码规范/EditorConfig.md",
-    "前端工程化/代码规范/commitlint.md",
-    "Inbox/(1 封私信) 如何设计网站权限系统？ - 知乎.md",
-    "Inbox/网站权限管理.md",
-    "Inbox/assets/0abb478f73cc363fa6698209cb6f8baa_MD5.png",
-    "Inbox/assets/e44034fe29d41a253e3ee260a5e782ca_MD5.jpg",
-    "Inbox/消息轮播.md",
-    "Inbox/语义化版本.md",
-    "TypeScript/TS 类型体操.md",
-    "pnpm-lock.yaml.2825093402",
-    "_tmp_34060_a1e2414d0ec983d0c6577c3ac41e7d77",
-    "package.json.3394544955",
-    "pnpm-lock.yaml.2598468269",
-    "node_modules/@types",
-    "_tmp_31192_99cc72c1ef2e3cf95dc71426acd54da7",
-    "_tmp_34444_95b31dfb8e5736909ff70491618ca577",
-    "package.json.676474536",
-    "前端基础/JavaScript/assets/Pasted image 20250821093011.png",
-    "Inbox/Untitled Diagram 1.svg",
-    "Inbox/Untitled Diagram.svg",
-    "服务端渲染(SSR)/Next.js/Next.js语言切换.canvas",
+    "前端开发路线图.smm.md",
+    "09_渲染模式与全栈前端/Node.js/Node.js.md",
+    "09_渲染模式与全栈前端/Node.js",
+    "about.md",
+    "index.md",
+    "07_工程化与研发流程/assets",
+    "07_工程化与研发流程/软件工程化管理.md",
+    "assets/Template/参考资料.md",
+    "assets/Template/README.md",
+    "03_浏览器与Web平台能力/强缓存与协商缓存.md",
+    "前端基础/浏览器与网络/assets/d1b283eed4d97578984e48e7ae6a0ceb_MD5.png",
+    "前端基础/浏览器与网络/assets/c01ecec2a77ee7eb2868cfa62a80821b_MD5.png",
+    "07_工程化与研发流程/index.md",
+    "public/gogo.jpg",
+    "09_渲染模式与全栈前端/Next.js/Next.js语言切换.canvas",
+    "05_前端框架与生态/utils/功能函数.md",
+    "06_UI体系与业务组件/Element Plus/如何在 Element Plus 的表单 el-form 组件中使用自定义组件.md",
+    "常用库&解决方案/自定义组件/关键词高亮(Vue).md",
+    "常用库&解决方案/自定义组件/可拖拽穿梭框(Vue)/可拖拽穿梭框.md",
+    "07_工程化与研发流程/开发环境启用HTTPS/开发环境启用HTTPS.md",
+    "05_前端框架与生态/富文本编辑器/富文本编辑器.md",
+    "04_CSS与交互视觉/动画/仿 Element Plus 主题切换动画/仿 Element Plus 主题切换动画.md",
+    "04_CSS与交互视觉/动画/仿 Element Plus 主题切换动画/示例.html",
+    "05_前端框架与生态/常用库&解决方案/video.js.md",
+    "05_前端框架与生态/常用库&解决方案/use-antd-resizable-header - Antd 表格头拖拽伸缩.md",
+    "05_前端框架与生态/常用库&解决方案/Swiper.md",
+    "05_前端框架与生态/常用库&解决方案/ULID - 生成全局唯一标识符.md",
+    "05_前端框架与生态/常用库&解决方案/rimraf - 快速删除文件.md",
+    "05_前端框架与生态/常用库&解决方案/nvm - node 版本管理.md",
+    "05_前端框架与生态/常用库&解决方案/html-to-text - HTML 转换为文本.md",
+    "05_前端框架与生态/常用库&解决方案/enum-plus - 一个增强版的枚举类库.md",
+    "03_浏览器与Web平台能力/assets/128ac822e23554d13b4f1823953f27de_MD5.png",
+    "03_浏览器与Web平台能力/assets",
+    "11_开发工具",
+    "10_跨端与新方向",
+    "09_渲染模式与全栈前端",
+    "08_性能、稳定性与安全",
+    "07_工程化与研发流程",
+    "06_UI体系与业务组件",
+    "Node.js/assets/image 2.png",
+    "Node.js/assets/image 3.png",
+    "Node.js/assets/image 1.png",
+    "Node.js/assets/image.png",
+    "assets/3e3687b9f3051dc097e6a562140c58f9_compress.jpg",
+    "07_工程化与研发流程/assets/软件工程化管理.png",
     "Inbox/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

@@ -1,0 +1,646 @@
+{
+  "study.md": {
+    "scroll": 248.89514218009478,
+    "cursor": {
+      "from": {
+        "line": 218,
+        "ch": 6
+      },
+      "to": {
+        "line": 218,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/语义化版本.md": {
+    "scroll": 82.82486979166667,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "nav/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Node.js/index.md": {
+    "scroll": 14.404296875,
+    "cursor": {
+      "from": {
+        "line": 58,
+        "ch": 0
+      },
+      "to": {
+        "line": 58,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/Inbox.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/npx 使用教程.md": {
+    "scroll": 158.54296875,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 0
+      },
+      "to": {
+        "line": 56,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/消息轮播.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/项目模板、规范.md": {
+    "scroll": 47.949869791666664,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 25
+      },
+      "to": {
+        "line": 10,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/前端定时任务：CRON表达式的生成和转化.md": {
+    "scroll": 150.34143968871595,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/前端必学-完美组件封装原则.md": {
+    "scroll": 84.85714285714286,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "README.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "跨平台/PC官网开发/SEO优化.md": {
+    "scroll": 9.748750520094443,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/CSS/CSS常用样式.md": {
+    "scroll": 277.70535714285717,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/CSS/grid 网格布局.md": {
+    "scroll": 56.70143229166667,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 0
+      },
+      "to": {
+        "line": 56,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/浏览器与网络/强缓存与协商缓存.md": {
+    "scroll": 7.373697916666667,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "计算机网络/HTTP/HTTP响应状态码.md": {
+    "scroll": 75.66840571190633,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "计算机基础与网络/HTTP/HTTP响应状态码.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/ES6.md": {
+    "scroll": 5.681640625,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 2
+      },
+      "to": {
+        "line": 4,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/JavaScript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/JavaScript标准内置对象.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/js计算.md": {
+    "scroll": 9.792061611374407,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 39
+      },
+      "to": {
+        "line": 39,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/JS语句和声明.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/this 指向问题.md": {
+    "scroll": 130.83162328329607,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "about.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 69
+      },
+      "to": {
+        "line": 2,
+        "ch": 69
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/JavaScript/canvas/canvas.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端语言与基础能力/JavaScript/JS注释/JS注释.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 9
+      },
+      "to": {
+        "line": 10,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端语言与基础能力/JavaScript/JS注释/JSDoc.md": {
+    "scroll": 132.9372037914692,
+    "cursor": {
+      "from": {
+        "line": 150,
+        "ch": 14
+      },
+      "to": {
+        "line": 150,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "后端开发/数据库/MySQL/数据库环境搭建.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端语言与基础能力/JavaScript/canvas/canvas.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端语言与基础能力/JavaScript/JavaScript标准内置对象.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 28
+      },
+      "to": {
+        "line": 10,
+        "ch": 28
+      }
+    },
+    "expandedKeys": []
+  },
+  "浏览器与 Web 平台能力/强缓存与协商缓存.md": {
+    "scroll": 20.950520833333332,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 0
+      },
+      "to": {
+        "line": 26,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端基础/HTML/img.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/video.js.md": {
+    "scroll": 76.42782738095238,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/动画/仿 Element Plus 主题切换动画/仿 Element Plus 主题切换动画.md": {
+    "scroll": 188.70717482707175,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/富文本编辑器/富文本编辑器.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/开发环境启用HTTPS/开发环境启用HTTPS.md": {
+    "scroll": 1.4798177083333333,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/自定义组件/可拖拽穿梭框(Vue)/可拖拽穿梭框.md": {
+    "scroll": 18.598214285714285,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/自定义组件/关键词高亮(Vue).md": {
+    "scroll": 64.32440476190476,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/UI&组件库/Element Plus/如何在 Element Plus 的表单 el-form 组件中使用自定义组件.md": {
+    "scroll": 20.541666666666668,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用库&解决方案/utils/功能函数.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "前端工程化/index.md": {
+    "scroll": 24.369668246445496,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "03_浏览器与Web平台能力/强缓存与协商缓存.md": {
+    "scroll": 30.045247395833332,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 0
+      },
+      "to": {
+        "line": 33,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "assets/Template/README.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/软件工程化管理.md": {
+    "scroll": 20.449869791666668,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "09_渲染模式与全栈前端/Node.js/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 63
+      },
+      "to": {
+        "line": 2,
+        "ch": 63
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/前端语音合成播放简单示例（Web Speech API）.md": {
+    "scroll": 32.41517857142857,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 12
+      },
+      "to": {
+        "line": 21,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  }
+}

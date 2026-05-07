@@ -1,0 +1,62 @@
+{
+  "isFirstUse": false,
+  "fileNameFormat": "MindMap {date:YYYY-MM-DD HH.mm.ss}",
+  "lang": "zh",
+  "themeMode": "follow",
+  "defaultLayout": "logicalStructure",
+  "defaultTheme": "mint",
+  "defaultThemeDark": "dark7",
+  "filePathType": "custom",
+  "filePath": "Inbox/思维导图",
+  "imagePathType": "currentFileFolderSubFolder",
+  "imagePath": "",
+  "imageSubPath": "assets",
+  "attachmentPathType": "currentFileFolderSubFolder",
+  "attachmentPath": "",
+  "attachmentSubPath": "assets",
+  "compressImage": false,
+  "compressImageOptionsMaxWidth": 1200,
+  "compressImageOptionsMaxHeight": 1200,
+  "compressImageOptionsQuality": 0.8,
+  "compressImageIsTransparent": true,
+  "embedDblClickNewWindow": true,
+  "autoSaveTime": 5,
+  "mindMapConfig": {
+    "openPerformance": false,
+    "alwaysShowExpandBtn": false,
+    "watermarkConfig": {
+      "onlyExport": false,
+      "text": "",
+      "lineSpacing": 100,
+      "textSpacing": 100,
+      "angle": 30,
+      "textStyle": {
+        "color": "#999",
+        "opacity": 0.5,
+        "fontSize": 14
+      },
+      "belowNode": false
+    },
+    "outerFramePaddingX": 13,
+    "outerFramePaddingY": 14
+  },
+  "mindMapLocalConfig": {
+    "isZenMode": false,
+    "useLeftKeySelectionRightKeyDrag": true,
+    "isShowScrollbar": false,
+    "isDark": false,
+    "isShowBottomToolbar": true,
+    "autoSaveTime": 5
+  },
+  "supportObSearch": true,
+  "saveCanvasViewData": true,
+  "nodeTextToMarkdownTitleMaxLevel": 3,
+  "embedImageIsSeparateFile": true,
+  "embedImageIsSeparateFileFolder": ".smm-embed-image-files",
+  "nodePasteImageNameFormat": "{notename}_pasteImage",
+  "embedLinkNewWindowOpen": true,
+  "useImgHosting": false,
+  "imgHostingUrl": "http://127.0.0.1:36677/upload",
+  "imgHostingFormField": "files",
+  "imgHostingResponseField": "data.result[0]"
+}
