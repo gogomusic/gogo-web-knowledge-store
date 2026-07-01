@@ -1,14 +1,14 @@
 {
   "study.md": {
-    "scroll": 248.89514218009478,
+    "scroll": 284.5100710900474,
     "cursor": {
       "from": {
-        "line": 218,
-        "ch": 6
+        "line": 300,
+        "ch": 4
       },
       "to": {
-        "line": 218,
-        "ch": 6
+        "line": 300,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -378,7 +378,7 @@
     "expandedKeys": []
   },
   "后端开发/数据库/MySQL/数据库环境搭建.md": {
-    "scroll": 0,
+    "scroll": 82.27956420992723,
     "cursor": {
       "from": {
         "line": 0,
@@ -574,7 +574,7 @@
     "expandedKeys": []
   },
   "03_浏览器与Web平台能力/强缓存与协商缓存.md": {
-    "scroll": 30.045247395833332,
+    "scroll": 30.03515625,
     "cursor": {
       "from": {
         "line": 33,
@@ -639,6 +639,328 @@
       "to": {
         "line": 21,
         "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/中文技术文档的写作规范.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/中文技术文档写作规范.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/中文技术文档写作规范/README.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 8
+      },
+      "to": {
+        "line": 3,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/中文技术文档写作规范/docs/text.md": {
+    "scroll": 70.27232142857143,
+    "cursor": {
+      "from": {
+        "line": 66,
+        "ch": 18
+      },
+      "to": {
+        "line": 66,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/中文技术文档写作规范/docs/marks.md": {
+    "scroll": 95.16220238095238,
+    "cursor": {
+      "from": {
+        "line": 149,
+        "ch": 5
+      },
+      "to": {
+        "line": 149,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "JavaScript/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "JavaScript/JavaScript.md": {
+    "scroll": 215.99466824644549,
+    "cursor": {
+      "from": {
+        "line": 245,
+        "ch": 7
+      },
+      "to": {
+        "line": 245,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "后端开发/Nginx/Nginx 简易使用.md": {
+    "scroll": 13.680338541666666,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 15
+      },
+      "to": {
+        "line": 33,
+        "ch": 54
+      }
+    },
+    "expandedKeys": []
+  },
+  "index.md": {
+    "scroll": 0.19642857142857142,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Inbox/一名【合格】前端工程师的自检清单.md": {
+    "scroll": 287.4425355450237,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 110
+      },
+      "to": {
+        "line": 29,
+        "ch": 110
+      }
+    },
+    "expandedKeys": []
+  },
+  "07_工程化与研发流程/代码规范/prettier.md": {
+    "scroll": 22.232142857142858,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "09_渲染模式与全栈前端/Node.js/Node.js.md": {
+    "scroll": 0.24096385542168675,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "05_前端框架与生态/常用库&解决方案/nvm - node 版本管理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "09_渲染模式与全栈前端/Next.js/Node 项目部署.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "后端开发/NestJS/index.md": {
+    "scroll": 43.873511904761905,
+    "cursor": {
+      "from": {
+        "line": 64,
+        "ch": 0
+      },
+      "to": {
+        "line": 64,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "后端开发/NestJS/NestJS.md": {
+    "scroll": 2.496644166233966,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "后端开发/数据库/MySQL/index.md": {
+    "scroll": 241.96549479166666,
+    "cursor": {
+      "from": {
+        "line": 263,
+        "ch": 0
+      },
+      "to": {
+        "line": 263,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Fix grammar and spelling.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Clip YouTube Transcript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 45
+      },
+      "to": {
+        "line": 11,
+        "ch": 52
+      }
+    },
+    "expandedKeys": []
+  },
+  "经验积累/Xshell 无法登录 Ubuntu 系统 的解决方案.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 16
+      },
+      "to": {
+        "line": 8,
+        "ch": 34
+      }
+    },
+    "expandedKeys": []
+  },
+  "后端开发/RestFul API.md": {
+    "scroll": 0.5813953488372093,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-conversations/你好！@20260701_175241.md": {
+    "scroll": 145.142578125,
+    "cursor": {
+      "from": {
+        "line": 154,
+        "ch": 0
+      },
+      "to": {
+        "line": 154,
+        "ch": 0
       }
     },
     "expandedKeys": []

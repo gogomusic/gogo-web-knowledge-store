@@ -1053,6 +1053,7 @@ var OP_MODE_INFO_HTML = `
 
 <details>
 <summary>Comparison</summary>
+<div style="overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch;">
 <table id="ophCompTable">
   <thead>
   <tr>
@@ -1119,6 +1120,7 @@ var OP_MODE_INFO_HTML = `
   </tr>
   <tbody>
 </table>
+</div>
 
 <div><b>*</b>: <a href="https://web.dev/declarative-shadow-dom/">Declarative Shadow DOM</a></div>
 <div><b>#</b>: <a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Content Security Policy</a></div>
@@ -1175,7 +1177,7 @@ var HtmlSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h1", { text: "HTML Reader Settings" });
-    containerEl.createEl("pre", { text: "\u203B Remember to reload the file after changing any setting." }).setAttribute("style", "color:red");
+    containerEl.createEl("pre", { text: "\u203B Remember to reload the file after changing any setting." }).setAttribute("style", "color:red; white-space: pre-wrap; word-break: break-word;");
     containerEl.createEl("h2", { text: "General Settings" });
     const opModeSetting = new import_obsidian.Setting(containerEl);
     opModeSetting.setName("Operating Mode").setDesc("Set operating mode for this plugin to protect user and app.").addDropdown((dropdown) => {
@@ -1227,20 +1229,27 @@ var HtmlSettingTab = class extends import_obsidian.PluginSettingTab {
   }
   buildHotkeySettings() {
     const { containerEl } = this;
-    let gSearch = this.app.hotkeyManager.getHotkeys("editor:open-search") || this.app.hotkeyManager.getDefaultHotkeys("editor:open-search");
+    const appAny = this.app;
+    const getHotkeysSafe = (commandId) => {
+      const manager = appAny.hotkeyManager;
+      if (!manager)
+        return [];
+      return manager.getHotkeys?.(commandId) || manager.getDefaultHotkeys?.(commandId) || [];
+    };
+    let gSearch = getHotkeysSafe("editor:open-search");
     const hkSearch = new import_obsidian.Setting(containerEl);
     hkSearch.setName("Search document text").setDesc(`Search current file.`);
     let hotkeyPairs = [
       { elm: hkSearch, settings: gSearch }
     ];
-    if (!this.app.isMobile) {
-      let gZoomIn = this.app.hotkeyManager.getHotkeys("window:zoom-in") || this.app.hotkeyManager.getDefaultHotkeys("window:zoom-in");
+    if (!appAny.isMobile) {
+      let gZoomIn = getHotkeysSafe("window:zoom-in");
       const hkZoomIn = new import_obsidian.Setting(containerEl).setName("Zoom in document").setDesc(`Zoom in current file.`);
       hotkeyPairs.push({ elm: hkZoomIn, settings: gZoomIn });
-      let gZoomOut = this.app.hotkeyManager.getHotkeys("window:zoom-out") || this.app.hotkeyManager.getDefaultHotkeys("window:zoom-out");
+      let gZoomOut = getHotkeysSafe("window:zoom-out");
       const hkZoomOut = new import_obsidian.Setting(containerEl).setName("Zoom out document").setDesc(`Zoom out current file.`);
       hotkeyPairs.push({ elm: hkZoomOut, settings: gZoomOut });
-      let gZoomReset = this.app.hotkeyManager.getHotkeys("window:reset-zoom") || this.app.hotkeyManager.getDefaultHotkeys("window:reset-zoom");
+      let gZoomReset = getHotkeysSafe("window:reset-zoom");
       const hkZoomReset = new import_obsidian.Setting(containerEl).setName("Reset document zoom").setDesc(`Reset current file zoom.`);
       hotkeyPairs.push({ elm: hkZoomReset, settings: gZoomReset });
     }
@@ -22904,10 +22913,12 @@ var HtmlView = class extends import_obsidian2.FileView {
       this.mainView.innerHTML = MAINVIEW_HTML;
       const searchBar = this.mainView.querySelector("#ohpMainView");
       const iframe = this.mainView.querySelector("#ohpIframe");
+      const baseHref = getHtmlBaseHref(this.app, file);
       let dom = null, applyAnchorFix = true;
       switch (this.settings.opMode) {
         case "BalanceMode" /* Balance */:
           dom = new window.DOMParser().parseFromString(htmlStr, "text/html");
+          ensureBaseHref(dom, baseHref);
           await removeScriptTagsAndExtScripts(dom);
           await sanitizeAndApplyPatches(dom);
           await restoreStateBySettings(dom, this.settings);
@@ -22916,22 +22927,23 @@ var HtmlView = class extends import_obsidian2.FileView {
           break;
         case "LowRestrictedMode" /* LowRestricted */:
           dom = new window.DOMParser().parseFromString(htmlStr, "text/html");
+          ensureBaseHref(dom, baseHref);
           await removeScriptTagsAndExtScripts(dom);
           await restoreStateBySettings(dom, this.settings);
           iframe.srcdoc = dom.documentElement.outerHTML;
           break;
         case "UnestrictedMode" /* Unrestricted */:
-          iframe.srcdoc = htmlStr;
+          iframe.srcdoc = injectBaseHrefToHtml(htmlStr, baseHref);
           break;
         case "HighRestrictedMode" /* HighRestricted */:
           const purifier = new window.DOMPurify();
           purifier.addHook("afterSanitizeAttributes", ohpAfterSanitizeAttributes);
-          const cleanHtmlHR = purifier.sanitize(htmlStr, hrModeConfig);
+          const cleanHtmlHR = purifier.sanitize(injectBaseHrefToHtml(htmlStr, baseHref), hrModeConfig);
           iframe.csp = "default-src 'none'; script-src 'none'; object-src 'none'; frame-src https: http: mediastream: blob:; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; ";
           iframe.srcdoc = cleanHtmlHR;
           break;
         case "TextMode" /* Text */:
-          const cleanHtmlText = new window.DOMPurify().sanitize(htmlStr, textModeConfig);
+          const cleanHtmlText = new window.DOMPurify().sanitize(injectBaseHrefToHtml(htmlStr, baseHref), textModeConfig);
           iframe.sandbox = "allow-same-origin";
           iframe.csp = "default-src 'none'; script-src 'none'; object-src 'none'; frame-src 'none'; font-src 'self' data:; img-src 'none'; style-src 'unsafe-inline'; media-src 'none'; ";
           iframe.srcdoc = cleanHtmlText;
@@ -22998,6 +23010,33 @@ var HtmlView = class extends import_obsidian2.FileView {
     return "code-glyph";
   }
 };
+function getHtmlBaseHref(app2, file) {
+  try {
+    const resourcePath = app2?.vault?.getResourcePath(file);
+    return resourcePath || "";
+  } catch {
+    return "";
+  }
+}
+function ensureBaseHref(doc, baseHref) {
+  if (!doc?.head || !baseHref) return;
+  let baseElm = doc.querySelector("base");
+  if (!baseElm) {
+    baseElm = doc.createElement("base");
+    doc.head.prepend(baseElm);
+  }
+  baseElm.setAttribute("href", baseHref);
+}
+function injectBaseHrefToHtml(htmlStr, baseHref) {
+  if (!htmlStr || !baseHref) return htmlStr;
+  try {
+    const doc = new window.DOMParser().parseFromString(htmlStr, "text/html");
+    ensureBaseHref(doc, baseHref);
+    return doc.documentElement.outerHTML;
+  } catch {
+    return htmlStr;
+  }
+}
 async function showError(e2) {
   const notice = new import_obsidian2.Notice("", 8e3);
   notice.noticeEl.createEl("strong", { text: "HTML Reader error" });
@@ -23082,13 +23121,19 @@ async function sanitizeAndApplyPatches(doc) {
 }
 function applyUserInteractivePatches(doc) {
   if (!doc.body.style) {
-    doc.body.setAttribute("style", "overflow: auto; user-select: text;");
+    doc.body.setAttribute("style", "overflow-x: hidden; overflow-y: auto; user-select: text; max-width: 100%; word-wrap: break-word;");
     return;
   }
-  if (doc.body.style.overflow === "")
-    doc.body.style.overflow = "auto";
+  if (doc.body.style.overflow === "") {
+    doc.body.style.overflowX = "hidden";
+    doc.body.style.overflowY = "auto";
+  }
+  if (doc.body.style.maxWidth === "")
+    doc.body.style.maxWidth = "100%";
   if (doc.body.style.userSelect === "")
     doc.body.style.userSelect = "text";
+  if (doc.documentElement.style.overflowX === "")
+    doc.documentElement.style.overflowX = "hidden";
 }
 async function removeScriptTagsAndExtScripts(doc) {
   let allNodes = doc.querySelectorAll("script");
@@ -23151,7 +23196,9 @@ function isUnselectableElement(elm) {
 }
 var isAppleSys = isMacPlatform() || isIosPlatform();
 function mapNativeHotkeys(app2, cmdId) {
-  let ohks = app2.hotkeyManager.getHotkeys(cmdId) || app2.hotkeyManager.getDefaultHotkeys(cmdId);
+  const appAny = app2;
+  const manager = appAny.hotkeyManager;
+  let ohks = manager?.getHotkeys?.(cmdId) || manager?.getDefaultHotkeys?.(cmdId);
   const nhks = [];
   if (!ohks || ohks.length <= 0)
     return nhks;
@@ -23624,7 +23671,7 @@ var MAINVIEW_HTML = `
   </div>
 </div>
 
-<iframe style="border: none; flex-grow: 1; width: 100%; overflow: hidden;" loading="eager" margin="0" padding="0"  width="100%" height="100%" id="ohpIframe">
+<iframe style="border: none; flex-grow: 1; width: 100%; overflow-x: hidden; overflow-y: auto;" loading="eager" margin="0" padding="0"  width="100%" height="100%" id="ohpIframe">
 </iframe>
 `;
 var HIGHLIGHT_STYLE = `

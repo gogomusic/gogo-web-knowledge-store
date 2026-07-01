@@ -33,8 +33,8 @@
 
 8. 链接 nginx 配置 `sudo ln -s /etc/nginx/sites-available/[你的配置文件名] /etc/nginx/sites-enabled/`
 9. 查看配置是否正确 `sudo nginx -t`
-10. 重启 nginx `sudo systemctl restart nginx` 
-	- `sudo systemctl enable nginx` 开机自启 nginx 
+10. 重启 nginx `sudo systemctl restart nginx`
+	- `sudo systemctl enable nginx` 开机自启 nginx
 	- `sudo systemctl status nginx` 查看 nginx 状态
 11. 配置证书
 
@@ -46,36 +46,38 @@
         server {
             listen 80;
             listen [::]:80;
-
-            server_name your_domain.com www.your_domain.com;  # 更新为你的实际域名
-
+            
+            server_name your_domain.com www.your_domain.com;
+            
             # 重定向所有 HTTP 请求到 HTTPS
-            return 301 https://$host$request_uri;
+            return 301 https://$server_name$request_uri;
         }
-
+        
         # HTTPS 配置
         server {
-            listen 443 ssl;
-            listen [::]:443 ssl;
-
-            server_name your_domain.com www.your_domain.com;  # 更新为你的实际域名
-
-            # SSL 配置
-            ssl_certificate /etc/ssl/certs/certificate.crt;  # 证书文件
-            ssl_certificate_key /etc/ssl/private/private.key;  # 私钥文件
-            ssl_trusted_certificate /etc/ssl/certs/ca_bundle.crt;  # 证书链文件
-
-            # 强制的 SSL 配置（可选，增强安全性）
+            listen 443 ssl http2;  # 添加 http2 提升性能
+            listen [::]:443 ssl http2;
+            
+            server_name your_domain.com www.your_domain.com;
+            
+            # SSL 证书配置
+            ssl_certificate /etc/ssl/certs/certificate.crt;
+            ssl_certificate_key /etc/ssl/private/private.key;
+            
+            # SSL 安全配置
             ssl_protocols TLSv1.2 TLSv1.3;
-            ssl_ciphers 'ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256';
+            ssl_ciphers HIGH:!aNULL:!MD5;
             ssl_prefer_server_ciphers on;
-            ssl_dhparam /etc/ssl/certs/dhparam.pem;  # 可选，只有在你生成了 dhparam.pem 时才需要
-
-            # 网站根目录和默认首页
-            root /var/www/your_project/html;  # 更新为你的项目路径
+            
+            # 日志配置
+            access_log /var/log/nginx/your_domain_access.log;
+            error_log /var/log/nginx/your_domain_error.log;
+            
+            # 网站根目录
+            root /var/www/your_project/html;
             index index.html index.htm;
-
-            # 配置路由
+            
+            # 路由配置
             location / {
                 try_files $uri $uri/ =404;
             }

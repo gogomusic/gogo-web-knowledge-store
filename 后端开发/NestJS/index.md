@@ -30,15 +30,21 @@
 需要环境 **Node. js >= 20**
 
 **1. 安装 Nest Cli 到全局**
+
 ```bash
 npm i -g @nestjs/cli
 ```
+
 **2. 创建项目**
+
 包管理器使用 `pnpm`，使用 `TypeScript`
+
 ```bash
 nest new project-name -p pnpm --strict
 ```
+
 **3. 启动项目**
+
 > 更改 `start:dev` 脚本为：`"start:dev": "nest start --watch -b swc --type-check"`，
 >> 1. `--watch`：此命令将监视你的文件，自动重新编译并重新加载服务器。
 >> 2. `-b swc`：使用 [SWC 构建器](https://nest.nodejs.cn/recipes/swc) 提升构建速度

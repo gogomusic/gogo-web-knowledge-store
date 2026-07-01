@@ -12,7 +12,8 @@
   "realTimeUpdateInterval": 10,
   "addNameOfFile": true,
   "showNotifications": true,
-  "include": ".*\\.md",
+  "includeps": "md|canvas",
+  "includepattern": "(?<md>.*\\.md)|(?<canvas>.*\\.canvas)",
   "mediaRootDir": "_resources/${notename}",
   "disAddCom": false,
   "useMD5ForNewAtt": false,
@@ -21,5 +22,10 @@
   "PngToJpeg": false,
   "PngToJpegLocal": false,
   "JpegQuality": 80,
-  "DoNotCreateObsFolder": false
+  "DoNotCreateObsFolder": false,
+  "DateFormat": "YYYY MM DD",
+  "ImgCompressionType": "image/jpeg",
+  "ExcludedFoldersList": "copilot",
+  "ExcludedFoldersListRegexp": "(^copilot$)",
+  "include": ".*\\.md"
 }

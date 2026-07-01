@@ -9,6 +9,7 @@
 | 中级  | 能独立完成工作 | ★★★   | 可独立交付常规任务，具备基础排障与优化能力。|
 | 高级  | 熟悉      | ★★★★  | 对原理、架构、实践较深入，能承担复杂问题与方案设计。|
 | 专家级 | 精通      | ★★★★★ | 具备深度分析、优化与创新能力，可主导大型项目技术方向。|
+|     |         |       |                             |
 
 > [!info]
 > - 星星总数表示学习目标级别。
@@ -45,6 +46,11 @@
 - HTTP 缓存（强缓存/协商缓存）
 - HTTP/2 与 HTTP/3（待评估）
 
+#### 数据结构与算法
+
+- 数据结构
+- 算法
+
 ### 2. 前端语言与基础能力
 
 - HTML ★★★☆
@@ -58,14 +64,15 @@
   - 常用布局
   - 响应式网页设计
   - 移动端 ★★☆☆
-- JavaScript ★★★☆
-  - JavaScript 基础
-  - ES6 ★★★☆
-  - DOM 操作
-  - 事件循环（Event Loop）
-  - 异步编程（Promise / async-await）
-  - 模块化（ESM / CommonJS）
-  - Fetch API / Ajax（XHR）
+- [JavaScript](JavaScript/JavaScript.md) ★★★☆
+	- JavaScript 基础
+	- ES6 ★★★☆
+	- DOM 操作
+	- 事件循环（Event Loop）
+	- 异步编程（Promise / async-await）
+	- 模块化（ESM / CommonJS）
+	- Fetch API / Ajax（XHR）
+	- 设计模式
 - TypeScript
   - TS 中文文档（已系统学习，跳过少量低频高难内容）★★★☆
   - 装饰器 ★☆☆☆
@@ -80,19 +87,20 @@
   - 浏览器存储（Cookie / LocalStorage / SessionStorage / IndexedDB）
   - 跨标签页通信（BroadcastChannel / Storage Event）
 - Web API ★★☆☆
-  - WebSockets API
-  - SSE
-  - Service Workers / PWA
-  - Clipboard API
-  - File System Access API
-  - Fullscreen API
-  - Geolocation API
-  - Notifications
-  - Device Orientation
-  - Payments
-  - Credentials
-  - WebGL
-  - Web Components
+	- WebSocket API ★★
+		- 大型项目应使用 Socket.IO
+		- SSE ★
+	- Service Workers / PWA
+	- Clipboard API
+	- File System Access API
+	- Fullscreen API
+	- Geolocation API
+	- Notifications
+	- Device Orientation
+	- Payments
+	- Credentials
+	- WebGL
+	- Web Components
 
 ### 4. CSS 与交互视觉
 
@@ -178,13 +186,13 @@
   - Turbopack
   - Gulp
 - 代码规范
-  - ESLint
-  - Prettier
-  - Stylelint
-  - Husky
-  - lint-staged
-  - commitlint
-  - JSDoc
+	- ESLint
+	- Prettier
+	- Stylelint
+	- Husky
+	- lint-staged
+	- commitlint
+	- JSDoc
 - 认证策略
 	- 基础认证（用户名/密码）
 	- 基于会话（服务器记住登录）
@@ -217,6 +225,8 @@
 	- Vercel
 	- Cloudflare
 	- CDN
+	- Nginx
+
 ### 8. 性能、稳定性与安全
 
 - 性能优化

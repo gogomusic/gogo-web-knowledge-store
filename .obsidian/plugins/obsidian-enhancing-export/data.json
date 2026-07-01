@@ -47,10 +47,18 @@
     },
     {
       "name": "Bibliography"
+    },
+    {
+      "name": "PowerPoint (.pptx)"
     }
   ],
   "defaultExportDirectoryMode": "Auto",
   "openExportedFile": true,
   "env": {},
-  "openExportedFileLocation": false
+  "showExportProgressBar": true,
+  "openExportedFileLocation": false,
+  "lastExportDirectory": {
+    "win32": "D:\\下载"
+  },
+  "lastExportType": "Markdown"
 }

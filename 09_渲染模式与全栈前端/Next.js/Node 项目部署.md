@@ -6,7 +6,7 @@
 
 2、**接下来，在你的 Next.js 项目目录下，运行以下命令来启动你的应用：**
 
-`pm2 start npm --name "your-app-name" -- run start --time`
+`pm2 start npm --name "your-app-name" --time -- run start`
 
 这里的 --name "your-app-name" 是给你的应用实例命名，方便在 PM2 管理的时候进行区分。使用 `--time` 指令可在日志中显示时间
 
